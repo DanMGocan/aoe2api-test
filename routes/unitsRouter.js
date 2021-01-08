@@ -21,10 +21,9 @@ const getUnit = async (req, res, next) => {
         }
     }
 
-unitsRouter.get("/", (req, res, next) => {
-    res.send(`Please see below all units: 
-    
-    ${JSON.parse(data)}`)
-})
-unitsRouter.route("/:name").get(getUnit); 
-module.exports = unitsRouter;
+    unitsRouter.get("/", (req, res, next) => {
+        res.json(JSON.parse(data));
+    })
+
+    unitsRouter.route("/:name").get(getUnit); 
+    module.exports = unitsRouter;
