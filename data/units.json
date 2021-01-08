@@ -1,0 +1,195 @@
+[
+    {
+        "name" : "Huskarl",
+        "type" : "Infantry",
+        "civilization" : "Goths", 
+        "age" : "Castle Age",
+        "trainingTime": {
+            "castle": 16,
+            "barracks": 13
+        },
+        "cost" : {
+            "food" : 52, 
+            "gold" : 26,
+            "wood" : 0
+        },
+        "hitPoints" : 60,
+        "attackType" : "melee",
+        "attack" : 10,
+        "attackBonus": {
+            "Archer" : 6,
+            "Eagle Warrior" : 2,
+            "Standard building" : 3
+        },
+        "attackDelay" : 0.8,
+        "rateOfFire" : 2.0,
+        "meleeArmour" : 0,
+        "pierceArmour": 6,
+        "armourClass" : ["Infantry", "Unique unit"],
+        "speed" : 1.05, 
+        "lineOfSight" : 3,
+        "unitIcon" : ""
+    },
+
+    {
+        "name" : "Elite Huskarl",
+        "type" : "Infantry",
+        "civilization" : "Goths", 
+        "age" : "Imperial Age",
+        "trainingTime": {
+            "castle": 16,
+            "barracks": 13
+        },
+        "cost" : {
+            "food" : 52, 
+            "gold" : 26,
+            "wood" : 0
+        },
+        "hitPoints" : 70,
+        "attackType" : "melee",
+        "attack" : 12,
+        "attackBonus": {
+            "Archer" : 10,
+            "Eagle Warrior" : 3,
+            "Standard building" : 4
+        },
+        "attackDelay" : 0.8,
+        "rateOfFire" : 2.0,
+        "meleeArmour" : 0,
+        "pierceArmour": 8,
+        "armourClass" : ["Infantry", "Unique unit"],
+        "speed" : 1.05, 
+        "lineOfSight" : 5,
+        "unitIcon" : ""
+    },
+
+    {
+        "name" : "Longbowman",
+        "type" : "Archer",
+        "civilization" : "Britons", 
+        "age" : "Castle Age",
+        "trainingTime": {
+            "castle": 18
+        },
+        "cost" : {
+            "food" : 0, 
+            "gold" : 40,
+            "wood" : 35
+        },
+        "hitPoints" : 35,
+        "attackType" : "pierce",
+        "attack" : 6,
+        "attackBonus": {
+            "Spearman" : 2
+        },
+        "attackDelay" : 0.5,
+        "rateOfFire" : 2.0,
+        "range" : 5,
+        "accuracy" : 70,
+        "projectileSpeed" : 7,
+        "meleeArmour" : 0,
+        "pierceArmour": 0,
+        "armourClass" : ["Archer", "Unique unit"],
+        "speed" : 0.96, 
+        "lineOfSight" : 7,
+        "unitIcon" : ""
+    },
+
+    {
+        "name" : "Elite Longbowman",
+        "type" : "Archer",
+        "civilization" : "Britons", 
+        "age" : "Imperial Age",
+        "trainingTime": {
+            "castle": 18
+        },
+        "cost" : {
+            "food" : 0, 
+            "gold" : 40,
+            "wood" : 35
+        },
+        "hitPoints" : 40,
+        "attackType" : "pierce",
+        "attack" : 7,
+        "attackBonus": {
+            "Spearman" : 2
+        },
+        "attackDelay" : 0.5,
+        "rateOfFire" : 2.0,
+        "range" : 6,
+        "accuracy" : 80,
+        "projectileSpeed" : 7,
+        "meleeArmour" : 0,
+        "pierceArmour": 1,
+        "armourClass" : ["Archer", "Unique unit"],
+        "speed" : 0.96, 
+        "lineOfSight" : 8,
+        "unitIcon" : ""
+    },
+
+    {
+        "name" : "Tarkan",
+        "type" : "Cavalry",
+        "civilization" : "Huns", 
+        "age" : "Castle Age",
+        "trainingTime": {
+            "castle" : 14,
+            "stable" : 21
+        },
+        "cost" : {
+            "food" : 60, 
+            "gold" : 60,
+            "wood" : 0
+        },
+        "hitPoints" : 100,
+        "attackType" : "melee",
+        "attack" : 8,
+        "attackBonus": {
+            "Stone defense" : 12,
+            "Castle" : 10,
+            "Building" : 8,
+            "Wall and gate" : 8
+        },
+        "attackDelay" : 0.95,
+        "rateOfFire" : 2.1,
+        "meleeArmour" : 1,
+        "pierceArmour": 3,
+        "armourClass" : ["Cavalry", "Unique unit"],
+        "speed" : 1.35, 
+        "lineOfSight" : 5,
+        "unitIcon" : ""
+    },
+
+    {
+        "name" : "Elite Tarkan",
+        "type" : "Cavalry",
+        "civilization" : "Huns", 
+        "age" : "Castle Age",
+        "trainingTime": {
+            "castle" : 14,
+            "stable" : 21
+        },
+        "cost" : {
+            "food" : 60, 
+            "gold" : 60,
+            "wood" : 0
+        },
+        "hitPoints" : 150,
+        "attackType" : "melee",
+        "attack" : 11,
+        "attackBonus": {
+            "Stone defense" : 12,
+            "Castle" : 10,
+            "Building" : 10,
+            "Wall and gate" : 10
+        },
+        "attackDelay" : 0.95,
+        "rateOfFire" : 2.1,
+        "meleeArmour" : 1,
+        "pierceArmour": 4,
+        "armourClass" : ["Cavalry", "Unique unit"],
+        "speed" : 1.35, 
+        "lineOfSight" : 7,
+        "unitIcon" : ""
+    }
+]
