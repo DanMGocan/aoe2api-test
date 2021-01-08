@@ -1,3 +1,11 @@
+/*
+
+Age of Empires 2 API
+Made by Dan Gocan, 2021
+Contains all information about Units, Buildings, Technlogies and Civilizations
+
+*/
+
 const express = require("express");
 const bodyParser = require("body-parser");
 const logger = require("morgan");
@@ -7,12 +15,12 @@ const app = express();
 
 const PORT = process.env.PORT || 3000;
 const NODE_ENV = process.env.NODE_ENV || "development";
-
+/*
 app.set("port", PORT);
 app.set("env", NODE_ENV);
-
+*/
 app.use(logger("tiny"));
-app.use(bodyParser.json());
+app.use(bodyParser.json()); //Not necessary, left here anyway for future use
 
 /* Allowing cross origin */
 app.use((req, res, next) => {
@@ -21,12 +29,15 @@ app.use((req, res, next) => {
     next();
 });
 
+/* Routers */
 app.use("/units", unitsRouter);
 
+/* Initial index.html file, sent as Homepage */
 app.get("/", (req, res, next) => {
     res.sendFile(path.join(__dirname + "/index.html"));
 });
 
+/* Error handlers*/
 app.use((req, res, next) => {
     const err = new Error(`${req.method}${req.url} was not found!`);
     err.status = 404;
@@ -43,7 +54,8 @@ app.use((err, req, res, next) => {
     });
 });
 
+/* App initialization */
 app.listen(PORT, () => {
-    console.log(`Server initiated on PORT ${app.get("port")} and ${app.get("env")} environment`);
+    console.log(`Server initiated on PORT ${PORT} and ${NODE_ENV} environment`);
 });
 
