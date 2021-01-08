@@ -1,3 +1,5 @@
+Access-Control-Allow-Origin: *;
+
 const express = require("express");
 const bodyParser = require("body-parser");
 const logger = require("morgan");
@@ -13,6 +15,13 @@ app.set("env", NODE_ENV);
 
 app.use(logger("tiny"));
 app.use(bodyParser.json());
+
+/* Allowing cross origin */
+app.use((req, res, next) => {
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-Allow-Headers", "origin, X-Requested-With, Content-Type, Accept");
+    next();
+});
 
 app.use("/units", unitsRouter);
 
