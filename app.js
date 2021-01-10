@@ -22,6 +22,10 @@ app.set("env", NODE_ENV);
 app.use(logger("tiny"));
 app.use(bodyParser.json()); //Not necessary, left here anyway for future use
 
+/* Statistics */
+const allUnitsObject = require("./routes/unitsRouter");
+const allUnitsTimesRequested = require("./routes/unitsRouter");
+
 /* Allowing cross origin */
 app.use((req, res, next) => {
     res.header("Access-Control-Allow-Origin", "*");
@@ -35,6 +39,14 @@ app.use("/units", unitsRouter);
 /* Initial index.html file, sent as Homepage */
 app.get("/", (req, res, next) => {
     res.sendFile(path.join(__dirname + "/index.html"));
+});
+
+app.get("/stats", (req, res, next) => {
+    res.send(`
+    <p>All units have been requested ${allUnitsTimesRequested} times.</p>
+    <br>
+    <p>Unit ${allUnitsObject})</p>`
+    )
 });
 
 /* Error handlers*/
