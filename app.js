@@ -10,7 +10,6 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const logger = require("morgan");
 const path = require("path");
-const unitsRouter = require("./routes/unitsRouter");
 const app = express();
 
 const PORT = process.env.PORT || 3000;
@@ -19,12 +18,19 @@ const NODE_ENV = process.env.NODE_ENV || "development";
 app.set("port", PORT);
 app.set("env", NODE_ENV);
 */
+
 app.use(logger("tiny"));
 app.use(bodyParser.json()); //Not necessary, left here anyway for future use
 
-/* Statistics */
-const allUnitsObject = require("./routes/unitsRouter");
-const allUnitsTimesRequested = require("./routes/unitsRouter");
+/* Importing the Units Router module, together with the statical data of all times the units have been accessed */
+
+const unitsRouterModule = require("./routes/unitsRouter");
+const unitsRouter = unitsRouterModule.unitsRouter;
+const allUnitsObject = unitsRouterModule.allUnitsObject;
+const allUnitsTimesRequested = unitsRouterModule.allUnitsTimesRequested;
+
+/* Routers */
+app.use("/units", unitsRouter);
 
 /* Allowing cross origin */
 app.use((req, res, next) => {
@@ -32,9 +38,6 @@ app.use((req, res, next) => {
     res.header("Access-Control-Allow-Headers", "origin, X-Requested-With, Content-Type, Accept");
     next();
 });
-
-/* Routers */
-app.use("/units", unitsRouter);
 
 /* Initial index.html file, sent as Homepage */
 app.get("/", (req, res, next) => {
@@ -45,7 +48,7 @@ app.get("/stats", (req, res, next) => {
     res.send(`
     <p>All units have been requested ${allUnitsTimesRequested} times.</p>
     <br>
-    <p>Unit ${allUnitsObject})</p>`
+    <p>Unit ${allUnitsObject.huskarl})</p>`
     )
 });
 

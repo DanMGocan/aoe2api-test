@@ -4,6 +4,9 @@ const path = require("path");
 const data = fs.readFileSync(path.join(__dirname, "../data/units.json")); //takes all units from Data folder
 const allUnits = JSON.parse(data);
 
+const unitsRouter = express.Router(); 
+
+
 /* Global variables used to statistics */
 let allUnitsTimesRequested = 0;
 
@@ -12,7 +15,17 @@ let allUnitsObject = {
     longbowman: 0
 }
 
-const unitsRouter = express.Router(); 
+unitsRouter.use("/", (req, res, next) => {
+    allUnitsTimesRequested++;
+    next();
+})
+
+unitsRouter.use("/:name", (req, res, next) => {
+    let unitName = req.params.name;
+    allUnitsObject[unitName]++;
+    next();
+})
+
 
 const getUnit = async (req, res, next) => {
     try {
@@ -22,7 +35,6 @@ const getUnit = async (req, res, next) => {
             err.status = 404;
             throw err;
         }
-        allUnitsObject[unit]++;
         res.json(unit);
         
     }
@@ -32,11 +44,13 @@ const getUnit = async (req, res, next) => {
     }
 
 unitsRouter.get("/", (req, res, next) => {
-    allUnitsTimesRequested++;
     res.json(allUnits);
 })
 
 unitsRouter.route("/:name").get(getUnit); 
-module.exports = unitsRouter;
-module.exports = allUnitsObject;
-module.exports = allUnitsTimesRequested;
+
+module.exports = {
+    unitsRouter: unitsRouter,
+    allUnitsTimesRequested: allUnitsTimesRequested,
+    allUnitsObject: allUnitsObject
+}
