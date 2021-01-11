@@ -60,7 +60,7 @@ app.get("/stats", (req, res, next) => {
     <p>Unit Huskarl: <strong>${allUnitsObject.huskarl} times</strong></p>
     <p>Unit Longbowman: <strong>${allUnitsObject.longbowman} times</strong></p>
     <p>All techs: <strong>${allTechnologiesObject.allTechnologiesTotal} times</strong></p>
-    <p>Unit Longbowman: <strong>${allTechnologiesObject.fletching} times</strong></p>
+    <p>Fletching technology: <strong>${allTechnologiesObject.fletching} times</strong></p>
     <p>Civilization Aztecs requested: ${allCivilizationsObject.aztecs}</p>`
     )
 });
