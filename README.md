@@ -2,7 +2,7 @@ Sources of information:
 
 
 ### Unit format
-Unit {
+"Unit" {
 "name" : " ",
 "type" : ",
 "civilization" : ", 
@@ -38,7 +38,7 @@ Unit {
 }
 
 ### Civilizations format
-Aztecs {
+"Aztecs" {
 "name": "Aztecs", 
         "icon": "./resources/icons/civilizations/CivIcon-Aztecs.png",
         "arhitecture": "Native American", 
