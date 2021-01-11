@@ -43,6 +43,7 @@ Sources of information:
         "icon": "./resources/icons/civilizations/CivIcon-Aztecs.png",
         "arhitecture": "Native American", 
         "focus": ["Infantry", "Monks"],
+        "wikiPage": "",
         "buildings": {
             "barracks": true,
             "archery range": true,

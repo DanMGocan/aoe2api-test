@@ -1,10 +1,13 @@
-/*
-
-Age of Empires 2 API
-Made by Dan Gocan, 2021
-Contains all information about Units, Buildings, Technlogies and Civilizations
-
-*/
+/*************************************************************************************
+Age of Empires 2 Wiki API                                                            *
+                                                                                     *
+Made by Dan M. Gocan, 2021                                                           *
+Contains information about Units, Buildings, Technlogies and Civilizations. For      *
+how to use, please see the README.md file. Hosted for free through Heroku, many      *
+thanks for that. And many thanks to Microsoft for keeping the franchise strong       *
+                                                                                     *
+Dedicated to my wife, a huge fan of the game :)                                      *
+*************************************************************************************/
 
 const express = require("express");
 const bodyParser = require("body-parser");
@@ -12,12 +15,10 @@ const logger = require("morgan");
 const path = require("path");
 const app = express();
 
+
+
 const PORT = process.env.PORT || 3000;
 const NODE_ENV = process.env.NODE_ENV || "development";
-/*
-app.set("port", PORT);
-app.set("env", NODE_ENV);
-*/
 
 app.use(logger("tiny"));
 app.use(bodyParser.json()); //Not necessary, left here anyway for future use
@@ -32,7 +33,7 @@ const technologiesRouterModule = require("./routes/technologiesRouter");
 const technologiesRouter = technologiesRouterModule.technologiesRouter;
 let allTechnologiesObject = technologiesRouterModule.allTechnologiesObject;
 
-/* Importing the Civilizations Router module, together with the statistical data of all times the technologies have been accessed */
+/* Importing the Civilizations Router module, together with the statistical data of all times the civilizations have been accessed */
 const civilizationsRouterModule = require("./routes/civilizationsRouter");
 const civilizationsRouter = civilizationsRouterModule.civilizationsRouter;
 let allCivilizationsObject = civilizationsRouterModule.allCivilizationsObject;

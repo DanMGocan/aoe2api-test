@@ -1,34 +1,34 @@
 [
     {
-        "name" : "Huskarl",
-        "type" : "Infantry",
-        "civilization" : "Goths", 
-        "age" : "Castle Age",
+        "name": "Huskarl",
+        "type": "Infantry",
+        "civilization": "Goths", 
+        "age": "Castle Age",
         "trainingTime": {
             "castle": 16,
             "barracks": 13
         },
-        "cost" : {
-            "food" : 52, 
-            "gold" : 26,
-            "wood" : 0
+        "cost": {
+            "food": 52, 
+            "gold": 26,
+            "wood": 0
         },
-        "hitPoints" : 60,
-        "attackType" : "melee",
-        "attack" : 10,
+        "hitPoints": 60,
+        "attackType": "melee",
+        "attack": 10,
         "attackBonus": {
-            "Archer" : 6,
-            "Eagle Warrior" : 2,
-            "Standard building" : 3
+            "Archer": 6,
+            "Eagle Warrior": 2,
+            "Standard building": 3
         },
-        "attackDelay" : 0.8,
-        "rateOfFire" : 2.0,
-        "meleeArmour" : 0,
+        "attackDelay": 0.8,
+        "rateOfFire": 2.0,
+        "meleeArmour": 0,
         "pierceArmour": 6,
-        "armourClass" : ["Infantry", "Unique unit"],
-        "speed" : 1.05, 
-        "lineOfSight" : 3,
-        "unitIcon" : ""
+        "armourClass": ["Infantry", "Unique unit"],
+        "speed": 1.05, 
+        "lineOfSight": 3,
+        "unitIcon": ""
     },
 
     {
