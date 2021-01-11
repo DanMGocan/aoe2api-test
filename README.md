@@ -2,7 +2,7 @@ Sources of information:
 
 
 ### Unit format
-
+{
 "name" : " ",
 "type" : ",
 "civilization" : ", 
@@ -35,9 +35,10 @@ Sources of information:
 "speed" : 1.35, 
 "lineOfSight" : 5,
 "unitIcon" : ""
+}
 
 ### Civilizations format
-
+{
 "name": "Aztecs", 
         "icon": "./resources/icons/civilizations/CivIcon-Aztecs.png",
         "arhitecture": "Native American", 
@@ -218,3 +219,4 @@ Sources of information:
             "Banking": true,
             "Caravan": true,
             "Guilds": true 
+}
