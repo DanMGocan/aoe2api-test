@@ -2,44 +2,44 @@ Sources of information:
 
 
 ### Unit format
-"Unit" {
-"name" : " ",
-"type" : ",
-"civilization" : ", 
-"age" : "",
-"trainingTime": {
-    "Castle" : ,
-    "Stable" : ,
-    "Barracks": ,
-    "Archery range": ,
-},
-"cost" : {
-    "Food" : , 
-    "Fold" : ,
-    "Food" : 
-},
-"hitPoints" : ,
-"attackType" : "",
-"attack" : ,
-"attackBonus": {
-    "Stone defense" : ,
-    "Castle" : ,
-    "Building" : ,
-    "Wall and gate" : 
-},
-"attackDelay" : ,
-"rateOfFire" : ,
-"meleeArmour" : ,
-"pierceArmour": ,
-"armourClass" : ["Cavalry", "Unique unit"],
-"speed" : 1.35, 
-"lineOfSight" : 5,
-"unitIcon" : ""
-}
+
+        "name" : " ",
+        "type" : ",
+        "civilization" : ", 
+        "age" : "",
+        "trainingTime": {
+            "Castle" : ,
+            "Stable" : ,
+            "Barracks": ,
+            "Archery range": ,
+        },
+        "cost" : {
+            "Food" : , 
+            "Fold" : ,
+            "Food" : 
+        },
+        "hitPoints" : ,
+        "attackType" : "",
+        "attack" : ,
+        "attackBonus": {
+            "Stone defense" : ,
+            "Castle" : ,
+            "Building" : ,
+            "Wall and gate" : 
+        },
+        "attackDelay" : ,
+        "rateOfFire" : ,
+        "meleeArmour" : ,
+        "pierceArmour": ,
+        "armourClass" : ["Cavalry", "Unique unit"],
+        "speed" : 1.35, 
+        "lineOfSight" : 5,
+        "unitIcon" : ""
+
 
 ### Civilizations format
-"Aztecs" {
-"name": "Aztecs", 
+
+        "name": "Aztecs", 
         "icon": "./resources/icons/civilizations/CivIcon-Aztecs.png",
         "arhitecture": "Native American", 
         "focus": ["Infantry", "Monks"],
@@ -219,4 +219,3 @@ Sources of information:
             "Banking": true,
             "Caravan": true,
             "Guilds": true 
-}
