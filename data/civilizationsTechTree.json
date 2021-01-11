@@ -1,0 +1,91 @@
+[
+    {
+        "name": "Aztecs", 
+        "buildings": {
+            "barracks": true,
+            "archery range": true,
+            "stable": false,
+            "siege workshop": true,
+            "castle": true,
+            "dock": true,
+            "outpost": true,
+            "watch tower": true,
+            "guard tower": true, 
+            "keep": false,
+            "palisade wall": true,
+            "stone wall": true, 
+            "fortified wall": true, 
+            "bombard tower": false,
+            "palisade gate": true, 
+            "gate": true,
+            "monastery": true,
+            "blacksmith": true,
+            "university": true,
+            "town center": true,
+            "mining camp": true,
+            "lumber camp": true,
+            "mill": true,
+            "farm": true,
+            "market": true,
+            "house": true,
+            "wonder": true
+        },
+
+        "units": {
+            "Militia": true,
+            "Man-at-Arms": true,
+            "Long Swordsman": true,
+            "Two-Handed Swordsman": true,
+            "Champion": true,
+            "Spearman": true,
+            "Pikeman": true,
+            "Halberdier": false,
+            "Eagle Scout": true, 
+            "Eagle Warrior": true,
+            "Elite Eagle Warrior": true,
+            "Archer": true,
+            "Crossbowman": true,
+            "Arbalester": true,
+            "Skirmisher": true,
+            "Elite Skirmisher": true,
+            "Hand Cannoneer": false,
+            "Cavalry Archer": false,
+            "Heavy Cavalry Archer": false,
+            "Scout Cavalry": false,
+            "Light Cavalry": false,
+            "Hussar": false,
+            "Knight": false,
+            "Cavalier": false,
+            "Paladin": false,
+            "Camel Rider": false,
+            "Heavy Camel Rider": false,
+            "Battle Elephant": false, 
+            "Elite Battle Elephant": false,
+            "Steppe Lancer": false,
+            "Elite Steppe Lancer": false,
+            "Battering Ram": true,
+            "Capped Ram": true,
+            "Siege Ram": true,
+            "Mangonel": true,
+            "Onager": true,
+            "Siege Onager": true,
+            "Scorpion": true,
+            "Heavy Scorpion": false,
+            "Siege Tower": true,
+            "Bombard Cannon": false,
+            "Petard": true,
+            "Trebuchet": true
+
+        },
+
+        "uniqueUnit": {
+            "Jaguar Warrior": true,
+            "Elite Jaguar Warrior": true
+        },
+
+        "technologies": {
+            "Atlatl": true, 
+            "Garland Wars": true
+        }   
+    }
+]

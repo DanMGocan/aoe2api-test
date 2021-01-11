@@ -1,5 +1,15 @@
 [
     {
-        
+        "name": "Fletching", 
+        "toggle": true,
+        "unique": false,
+        "attack": 1,
+        "range": 1,
+        "unitsAffected": ["Archer", "Crossbowman", "Arbalester", "Skirmisher", "Elite Skirmisher", "Imperial Skirmisher", "Cavalry Archer", "Heavy Cavalry Archer", "Slinger", 
+            "Hand Cannoneer", "Genitour", "Elite Genitour", "Longbowman", "Elite Longbowman", "Chu Ko Nu", "Elite Chu Ko Nu", "Mangudai", "Elite Mangudai", "Janissary", 
+            "Elite Janissary", "War Wagon", "Elite War Wagon", "Plumed Archer", "Elite Plumed Archer", "Conquistador", "Elite Conquistador", "Elephant Archer", "Elite Elephant Archer",
+            "Genoese Crossbowman", "Elite Genoese Crossbowman", "Camel Archer", "Elite Camel Archer", "Arambai", "Elite Arambai", "Rattan Archer", "Elite Rattan Archer", "Kipchak", 
+            "Elite Kipchak", "Organ Gun", "Ballista Elephan", "Elite Ballista Elephant", "Scorpion", "Heavy Scorpion", "Trebuchet", "Galley", "War Galley", "Galleon", "Fire Ship", 
+            "Fast Fire Ship", "Longboat", "Elite Longboat", "Caravel", "Elite Caravel"]
     }
 ]

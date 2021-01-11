@@ -7,21 +7,20 @@ const allUnits = JSON.parse(data);
 const unitsRouter = express.Router(); 
 
 
-/* Global variables used to statistics */
-let allUnitsTimesRequested = 0;
-
+/* Object used for statistical purpose */
 let allUnitsObject = {
+    allUnitsTotal: 0,
     huskarl: 0,
     longbowman: 0
 }
 
 unitsRouter.use("/", (req, res, next) => {
-    allUnitsTimesRequested++;
+    allUnitsObject.allUnitsTotal++;
     next();
 })
 
 unitsRouter.use("/:name", (req, res, next) => {
-    let unitName = req.params.name;
+    let unitName = req.params.name.toLowerCase();
     allUnitsObject[unitName]++;
     next();
 })
@@ -51,6 +50,5 @@ unitsRouter.route("/:name").get(getUnit);
 
 module.exports = {
     unitsRouter: unitsRouter,
-    allUnitsTimesRequested: allUnitsTimesRequested,
     allUnitsObject: allUnitsObject
 }
