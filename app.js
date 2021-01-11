@@ -32,9 +32,15 @@ const technologiesRouterModule = require("./routes/technologiesRouter");
 const technologiesRouter = technologiesRouterModule.technologiesRouter;
 let allTechnologiesObject = technologiesRouterModule.allTechnologiesObject;
 
+/* Importing the Civilizations Router module, together with the statistical data of all times the technologies have been accessed */
+const civilizationsRouterModule = require("./routes/civilizationsRouter");
+const civilizationsRouter = civilizationsRouterModule.civilizationsRouter;
+let allCivilizationsObject = civilizationsRouterModule.allCivilizationsObject;
+
 /* Routers */
 app.use("/units", unitsRouter);
 app.use("/technologies", technologiesRouter);
+app.use("/civilizations", civilizationsRouter);
 
 /* Allowing cross origin */
 app.use((req, res, next) => {
@@ -51,11 +57,11 @@ app.get("/", (req, res, next) => {
 app.get("/stats", (req, res, next) => {
     res.send(`
     <p>All units have been requested ${allUnitsObject.allUnitsTotal} times.</p>
-    <br>
     <p>Unit Huskarl: <strong>${allUnitsObject.huskarl} times</strong></p>
     <p>Unit Longbowman: <strong>${allUnitsObject.longbowman} times</strong></p>
     <p>All techs: <strong>${allTechnologiesObject.allTechnologiesTotal} times</strong></p>
-    <p>Unit Longbowman: <strong>${allTechnologiesObject.fletching} times</strong></p>`
+    <p>Unit Longbowman: <strong>${allTechnologiesObject.fletching} times</strong></p>
+    <p>Civilization Aztecs requested: ${allCivilizationsObject.aztecs}</p>`
     )
 });
 
