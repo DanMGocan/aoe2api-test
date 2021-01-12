@@ -15,8 +15,6 @@ const logger = require("morgan");
 const path = require("path");
 const app = express();
 
-
-
 const PORT = process.env.PORT || 3000;
 const NODE_ENV = process.env.NODE_ENV || "development";
 
@@ -50,6 +48,9 @@ app.use((req, res, next) => {
     next();
 });
 
+app.get("/test", (req, res, next) => {
+    res.sendFile(path.join(__dirname + "/test.html"));
+})
 /* Initial index.html file, sent as Homepage */
 app.get("/", (req, res, next) => {
     res.sendFile(path.join(__dirname + "/index.html"));

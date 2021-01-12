@@ -1,15 +1,13 @@
 const express = require("express");
 const fs = require("fs");
 const path = require("path");
+const statistics = require("../data/statisticsObjects.js");
 
-
+/* Router for civilizations */
 const civilizationsRouter = express.Router(); 
 
-
 /* Object used for statistical purpose */
-let allCivilizationsObject = {
-    aztecs: 0
-}
+let allCivilizationsObject = statistics.allCivilizationsObject;
 
 civilizationsRouter.use("/:name", (req, res, next) => {
     let civilizationName = req.params.name.toLowerCase();

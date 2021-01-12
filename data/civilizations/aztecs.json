@@ -1,10 +1,11 @@
 [
     {
         "name": "Aztecs", 
-        "icon": "./resources/icons/civilizations/CivIcon-Aztecs.png",
+        "icon": "https://www.forgottenempires.net/wp-content/uploads/menu_techtree_aztecs.png",
         "arhitecture": "Native American", 
         "focus": ["Infantry", "Monks"],
-        "wikiPage": "",
+        "wikiPage": "https://ageofempires.fandom.com/wiki/Aztecs_(Age_of_Empires_II)",
+        "forgottenEmpiresLink": "https://www.forgottenempires.net/age-of-empires-ii-definitive-edition/civilizations/aztecs",
         "buildings": {
             "barracks": true,
             "archery range": true,
