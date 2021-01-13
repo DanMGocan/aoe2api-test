@@ -15,6 +15,11 @@ const logger = require("morgan");
 const path = require("path");
 const app = express();
 
+/* Serving the favicon, yes I know :) */
+const favicon = require("serve-favicon");
+app.use(favicon(path.join(__dirname, '/favicon.ico')));
+
+/* To be worked upon*/
 const statistics = require("./data/statisticsObjects.js"); //Importing all the statisticsObjects into the main app. file
 
 const PORT = process.env.PORT || 3000;
@@ -50,9 +55,6 @@ app.use((req, res, next) => {
     next();
 });
 
-app.get("/test", (req, res, next) => {
-    res.sendFile(path.join(__dirname + "/test.html"));
-})
 /* Initial index.html file, sent as Homepage */
 app.get("/", (req, res, next) => {
     res.sendFile(path.join(__dirname + "/index.html"));
