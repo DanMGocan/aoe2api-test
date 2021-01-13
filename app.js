@@ -15,6 +15,8 @@ const logger = require("morgan");
 const path = require("path");
 const app = express();
 
+const statistics = require("./data/statisticsObjects.js"); //Importing all the statisticsObjects into the main app. file
+
 const PORT = process.env.PORT || 3000;
 const NODE_ENV = process.env.NODE_ENV || "development";
 

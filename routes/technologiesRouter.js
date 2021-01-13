@@ -6,13 +6,7 @@ const allTechnologies = JSON.parse(data);
 
 const technologiesRouter = express.Router(); 
 
-
 /* Global variables used to statistics */
-
-let allTechnologiesObject = {
-    allTechnologiesTotal: 0,
-    fletching: 0
-}
 
 technologiesRouter.use("/", (req, res, next) => {
     allTechnologiesObject.allTechnologiesTotal++;

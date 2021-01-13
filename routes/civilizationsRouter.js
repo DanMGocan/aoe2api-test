@@ -10,6 +10,7 @@ const civilizationsRouter = express.Router();
 let allCivilizationsObject = statistics.allCivilizationsObject;
 
 civilizationsRouter.use("/:name", (req, res, next) => {
+    console.log(allCivilizationsObject);
     let civilizationName = req.params.name.toLowerCase();
     allCivilizationsObject[civilizationName]++;
     next();
