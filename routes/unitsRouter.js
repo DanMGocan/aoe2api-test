@@ -6,18 +6,6 @@ const allUnits = JSON.parse(data);
 
 const unitsRouter = express.Router(); 
 
-unitsRouter.use("/", (req, res, next) => {
-    allUnitsObject.allUnitsTotal++;
-    next();
-})
-
-unitsRouter.use("/:name", (req, res, next) => {
-    let unitName = req.params.name.toLowerCase();
-    allUnitsObject[unitName]++;
-    next();
-})
-
-
 const getUnit = async (req, res, next) => {
     try {
         const unit = allUnits.find(unit => unit.name.toLowerCase() == req.params.name.toLowerCase());
@@ -41,5 +29,5 @@ unitsRouter.get("/", (req, res, next) => {
 unitsRouter.route("/:name").get(getUnit); 
 
 module.exports = {
-    unitsRouter: unitsRouter
+    unitsRouter
 }

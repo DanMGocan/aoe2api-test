@@ -15,20 +15,17 @@ const logger = require("morgan");
 const path = require("path");
 const fs = require("fs");
 const app = express();
+const statistics = require("./data/statistics/statistics.json")
 const { statisticsIncrementor } = require("./helperFunctions");
-const { testFunction } = require("./helperFunctions");
 
+/* Added as a helper for the statisticsIncrementor listener */
 const homeRouter = express.Router();
 app.use("/", homeRouter);
-
+homeRouter.use("/:category/:name", statisticsIncrementor);
 
 /* Serving the favicon, yes I know :) */
 const favicon = require("serve-favicon");
 app.use(favicon(path.join(__dirname, '/favicon.ico')));
-
-/** Importing the necessary statistics .json files */
-const civilizationsStatisticsJSON = fs.readFileSync(path.join(__dirname, "./data/statistics/statistics.json"));
-const civilizationsStatistics = JSON.parse(civilizationsStatisticsJSON);
 
 const PORT = process.env.PORT || 3000;
 const NODE_ENV = process.env.NODE_ENV || "development";
@@ -37,8 +34,7 @@ app.use(logger("tiny"));
 app.use(bodyParser.json()); //Not necessary, left here anyway for future use
 
 /* Importing the Units Router module, together with the statical data of all times the units have been accessed */
-const unitsRouterModule = require("./routes/unitsRouter");
-const unitsRouter = unitsRouterModule.unitsRouter;
+const { unitsRouter } = require("./routes/unitsRouter");
 
 /* Importing the Technologies Router module, together with the statistical data of all times the technologies have been accessed */
 const technologiesRouterModule = require("./routes/technologiesRouter");
@@ -54,7 +50,6 @@ app.use("/technologies", technologiesRouter);
 app.use("/civilizations", civilizationsRouter);
 
 /* Statistics incrementor, on each app use */
-homeRouter.use("/:category/:name", statisticsIncrementor);
 
 /* Allowing cross origin */
 app.use((req, res, next) => {
@@ -63,16 +58,16 @@ app.use((req, res, next) => {
     next();
 });
 
+/* Formatting the JSON responses */
+app.set('json spaces', '\t');
+
 /* Initial index.html file, sent as Homepage */
 app.get("/", (req, res, next) => {
     res.sendFile(path.join(__dirname + "/index.html"));
 });
 
 app.get("/stats", (req, res, next) => {
-    res.send(`
-    <p>Civilization Aztecs requested: ${civilizationsStatistics.aztecs}}</p>
-    <p>Civilization Aztecs requested: ${civilizationsStatistics.britons}}</p>`
-    )
+    res.json(statistics);
 });
 
 /* Error handlers*/

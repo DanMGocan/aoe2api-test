@@ -13,7 +13,7 @@
                     "teutons": 0,
                     "turks": 0,
                     "vikings": 0,
-                    "aztecs": 28,
+                    "aztecs": 29,
                     "huns": 0,
                     "koreans": 0,
                     "mayans": 0,
@@ -39,8 +39,8 @@
                     "sicilians": 0
           },
           "units": {
-                    "huskarl": 0,
-                    "longbowman": 1
+                    "huskarl": 5,
+                    "longbowman": 2
           },
           "technologies": {
                     "fletching": 1

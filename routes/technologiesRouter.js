@@ -22,7 +22,7 @@ const getTechnology = async (req, res, next) => {
     }
 
 technologiesRouter.get("/", (req, res, next) => {
-    res.json(allTechnologies);
+    res.send(JSON.stringify(allTechnologies, null, 10));
 })
 
 technologiesRouter.route("/:name").get(getTechnology); 

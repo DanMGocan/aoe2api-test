@@ -2,6 +2,7 @@
 * download all DB option
 * a download parameters so you can download JSON files
 * validate requests for civ, units, tech and buildings
+* helper function to create individual objects from JSON
 
 Sources of information: 
 
