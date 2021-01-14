@@ -13,14 +13,22 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const logger = require("morgan");
 const path = require("path");
+const fs = require("fs");
 const app = express();
+const { statisticsIncrementor } = require("./helperFunctions");
+const { testFunction } = require("./helperFunctions");
+
+const homeRouter = express.Router();
+app.use("/", homeRouter);
+
 
 /* Serving the favicon, yes I know :) */
 const favicon = require("serve-favicon");
 app.use(favicon(path.join(__dirname, '/favicon.ico')));
 
-/* To be worked upon*/
-const statistics = require("./data/statisticsObjects.js"); //Importing all the statisticsObjects into the main app. file
+/** Importing the necessary statistics .json files */
+const civilizationsStatisticsJSON = fs.readFileSync(path.join(__dirname, "./data/statistics/statistics.json"));
+const civilizationsStatistics = JSON.parse(civilizationsStatisticsJSON);
 
 const PORT = process.env.PORT || 3000;
 const NODE_ENV = process.env.NODE_ENV || "development";
@@ -31,22 +39,22 @@ app.use(bodyParser.json()); //Not necessary, left here anyway for future use
 /* Importing the Units Router module, together with the statical data of all times the units have been accessed */
 const unitsRouterModule = require("./routes/unitsRouter");
 const unitsRouter = unitsRouterModule.unitsRouter;
-let allUnitsObject = unitsRouterModule.allUnitsObject;
 
 /* Importing the Technologies Router module, together with the statistical data of all times the technologies have been accessed */
 const technologiesRouterModule = require("./routes/technologiesRouter");
 const technologiesRouter = technologiesRouterModule.technologiesRouter;
-let allTechnologiesObject = technologiesRouterModule.allTechnologiesObject;
 
 /* Importing the Civilizations Router module, together with the statistical data of all times the civilizations have been accessed */
 const civilizationsRouterModule = require("./routes/civilizationsRouter");
 const civilizationsRouter = civilizationsRouterModule.civilizationsRouter;
-let allCivilizationsObject = civilizationsRouterModule.allCivilizationsObject;
 
 /* Routers */
 app.use("/units", unitsRouter);
 app.use("/technologies", technologiesRouter);
 app.use("/civilizations", civilizationsRouter);
+
+/* Statistics incrementor, on each app use */
+homeRouter.use("/:category/:name", statisticsIncrementor);
 
 /* Allowing cross origin */
 app.use((req, res, next) => {
@@ -62,12 +70,8 @@ app.get("/", (req, res, next) => {
 
 app.get("/stats", (req, res, next) => {
     res.send(`
-    <p>All units have been requested ${allUnitsObject.allUnitsTotal} times.</p>
-    <p>Unit Huskarl: <strong>${allUnitsObject.huskarl} times</strong></p>
-    <p>Unit Longbowman: <strong>${allUnitsObject.longbowman} times</strong></p>
-    <p>All techs: <strong>${allTechnologiesObject.allTechnologiesTotal} times</strong></p>
-    <p>Fletching technology: <strong>${allTechnologiesObject.fletching} times</strong></p>
-    <p>Civilization Aztecs requested: ${allCivilizationsObject.aztecs}</p>`
+    <p>Civilization Aztecs requested: ${civilizationsStatistics.aztecs}}</p>
+    <p>Civilization Aztecs requested: ${civilizationsStatistics.britons}}</p>`
     )
 });
 

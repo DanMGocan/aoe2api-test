@@ -1,3 +1,8 @@
+# To add: #
+* download all DB option
+* a download parameters so you can download JSON files
+* validate requests for civ, units, tech and buildings
+
 Sources of information: 
 
 

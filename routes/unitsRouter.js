@@ -6,14 +6,6 @@ const allUnits = JSON.parse(data);
 
 const unitsRouter = express.Router(); 
 
-
-/* Object used for statistical purpose */
-let allUnitsObject = {
-    allUnitsTotal: 0,
-    huskarl: 0,
-    longbowman: 0
-}
-
 unitsRouter.use("/", (req, res, next) => {
     allUnitsObject.allUnitsTotal++;
     next();
@@ -49,6 +41,5 @@ unitsRouter.get("/", (req, res, next) => {
 unitsRouter.route("/:name").get(getUnit); 
 
 module.exports = {
-    unitsRouter: unitsRouter,
-    allUnitsObject: allUnitsObject
+    unitsRouter: unitsRouter
 }
