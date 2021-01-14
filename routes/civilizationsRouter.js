@@ -6,13 +6,13 @@ const statistics = require("../data/statisticsObjects.js");
 /* Router for civilizations */
 const civilizationsRouter = express.Router(); 
 
-/* Object used for statistical purpose */
+/* Object used for statistical purpose, imported from  */
 let allCivilizationsObject = statistics.allCivilizationsObject;
 
+/* Route that reads the name of the civilization and updates the value in the relevant statistics module */
 civilizationsRouter.use("/:name", (req, res, next) => {
-    console.log(allCivilizationsObject);
     let civilizationName = req.params.name.toLowerCase();
-    allCivilizationsObject[civilizationName]++;
+    allCivilizationsObject[civilizationName]++; // incrementing the relevant key in the allCivilizationsObject
     next();
 })
 
