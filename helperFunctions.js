@@ -1,5 +1,4 @@
 /* A function that takes the unit / civilization / technology or building parameters and when called, adds it to the statistics JSON document */
-
 const fs = require("fs");
 const stats = require("./data/statistics/statistics.json");
 let statisticsContent = Object.keys(stats.civilizations).concat(Object.keys(stats.units), Object.keys(stats.buildings), Object.keys(stats.technologies));
