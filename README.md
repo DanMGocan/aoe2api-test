@@ -9,6 +9,8 @@
 * add a function that reads the parametres on the routes
 and if they return as TRUE, process all the data and return the object
 /?values=attack,defend&counter=true
+* create a tester script, which pings all routes and writes the
+result in a log
 
 Sources of information: 
 
