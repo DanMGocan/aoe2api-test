@@ -7,14 +7,14 @@ const civilizationsRouter = express.Router();
 
 civilizationsRouter.get("/:name", async (req, res, next) => {
     try {
-        const civilizationName = req.params.name;
+        const civilization = req.params.name;
         const data = JSON.parse(fs.readFileSync(path.join(__dirname, `../data/civilizations/${civilizationName}.json`))); //takes specific file
-        if(!civilizationName) {
+        if(!civilization) {
             const err = new Error("Unit was not found!");
             err.status = 404;
             throw err;
         }
-        res.json(data);    
+        res.json(data); //sending all data, as a JSON file instead of an element from the data file
     }
 
     catch(e) {

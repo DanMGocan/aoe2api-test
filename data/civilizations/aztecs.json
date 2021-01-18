@@ -5,6 +5,7 @@
         "focus": ["Infantry", "Monks"],
         "wikiPage": "https://ageofempires.fandom.com/wiki/Aztecs_(Age_of_Empires_II)",
         "forgottenEmpiresLink": "https://www.forgottenempires.net/age-of-empires-ii-definitive-edition/civilizations/aztecs",
+      
         "buildings": {
             "barracks": true,
             "archery range": true,

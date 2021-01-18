@@ -1,31 +1,30 @@
 const express = require("express");
 const fs = require("fs");
 const path = require("path");
-const data = fs.readFileSync(path.join(__dirname, "../data/technologies.json")); //takes all units from Data folder
+const data = fs.readFileSync(path.join(__dirname, "../data/technologies.json")); //takes all technologies from Data folder
 const allTechnologies = JSON.parse(data);
 
 const technologiesRouter = express.Router(); 
 
-const getTechnology = async (req, res, next) => {
+technologiesRouter.get("/:name", async (req, res, next) => {
+    const techToSearch = req.params.name;
     try {
-        const technology = allTechnologies.find(technology => technology.name.toLowerCase() == req.params.name.toLowerCase());
-        if(!technology) {
-            const err = new Error("Technology was not found!");
-            err.status = 404;
-            throw err;
+        const technology = allTechnologies.find(technology => technology.name == techToSearch);
+            if(!technology) {
+                const err = new Error("Technology was not found!");
+                err.status = 404;
+                throw err;
+            }
+            res.json(technology);   
         }
-        res.json(technology);   
+    catch(e) {
+        next(e);
     }
-        catch(e) {
-            next(e);
-        }
-    }
-
-technologiesRouter.get("/", (req, res, next) => {
-    res.send(JSON.stringify(allTechnologies, null, 10));
 })
 
-technologiesRouter.route("/:name").get(getTechnology); 
+technologiesRouter.get("/", (req, res, next) => {
+    res.json(allTechnologies);
+})
 
 module.exports = {
     technologiesRouter
