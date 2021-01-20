@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js",
-    "pm2start": "pm2 start app.js"
+    "pm2start": "pm2 start app.js",
+    "testlogger": "node ../"
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +17,7 @@
     "morgan": "^1.10.0",
     "nodemon": "^2.0.7",
     "pm2": "^4.5.1",
+    "request": "^2.88.2",
     "serve-favicon": "^2.5.0",
     "utf8": "^3.0.0"
   }

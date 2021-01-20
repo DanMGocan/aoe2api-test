@@ -8,7 +8,7 @@ const unitsRouter = express.Router();
 
 const getUnit = async (req, res, next) => {
     try {
-        const unit = allUnits.find(unit => unit.name.toLowerCase() == req.params.name.toLowerCase());
+        const unit = allUnits.find(unit => unit.name.split(" ").join("").split("-").join("").toLowerCase() == req.params.name.split(" ").join("").split("-").join("").toLowerCase())
         if(!unit) {
             const err = new Error("Unit was not found!");
             err.status = 404;

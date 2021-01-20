@@ -33,9 +33,9 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "barracks": 0
+                  "unitsBarracks": 0
             },
-            "unitIcon": "../resources/icons/units/militia"
+            "unitIcon": "../resources/icons/units/militia.png"
       },
       {
             "name": "Man-at-Arms",
@@ -71,9 +71,9 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "barracks": 0
+                  "unitsBarracks": 0
             },
-            "unitIcon": "../resources/icons/units/man-at-arms"
+            "unitIcon": "../resources/icons/units/manatarms.png"
       },
       {
             "name": "Long Swordsman",
@@ -109,9 +109,9 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "barracks": 0
+                  "unitsBarracks": 0
             },
-            "unitIcon": "../resources/icons/units/longswordsman"
+            "unitIcon": "../resources/icons/units/longswordsman.png"
       },
       {
             "name": "Two-Handed Swordsman",
@@ -147,9 +147,9 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "barracks": 0
+                  "unitsBarracks": 0
             },
-            "unitIcon": "../resources/icons/units/two-handedswordsman"
+            "unitIcon": "../resources/icons/units/twohandedswordsman.png"
       },
       {
             "name": "Champion",
@@ -185,9 +185,9 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "barracks": 0
+                  "unitsBarracks": 0
             },
-            "unitIcon": "../resources/icons/units/champion"
+            "unitIcon": "../resources/icons/units/champion.png"
       },
       {
             "name": "Spearman",
@@ -223,9 +223,9 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "barracks": 0
+                  "unitsBarracks": 0
             },
-            "unitIcon": "../resources/icons/units/spearman"
+            "unitIcon": "../resources/icons/units/spearman.png"
       },
       {
             "name": "Pikeman",
@@ -261,9 +261,9 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "barracks": 0
+                  "unitsBarracks": 0
             },
-            "unitIcon": "../resources/icons/units/pikeman"
+            "unitIcon": "../resources/icons/units/pikeman.png"
       },
       {
             "name": "Halberdier",
@@ -299,9 +299,9 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "barracks": 0
+                  "unitsBarracks": 0
             },
-            "unitIcon": "../resources/icons/units/halberdier"
+            "unitIcon": "../resources/icons/units/halberdier.png"
       },
       {
             "name": "Eagle Scout",
@@ -337,9 +337,9 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "barracks": 0
+                  "unitsBarracks": 0
             },
-            "unitIcon": "../resources/icons/units/eaglescout"
+            "unitIcon": "../resources/icons/units/eaglescout.png"
       },
       {
             "name": "Eagle Warrior",
@@ -375,9 +375,9 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "barracks": 0
+                  "unitsBarracks": 0
             },
-            "unitIcon": "../resources/icons/units/eaglewarrior"
+            "unitIcon": "../resources/icons/units/eaglewarrior.png"
       },
       {
             "name": "Elite Eagle Warrior",
@@ -413,9 +413,9 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "barracks": 0
+                  "unitsBarracks": 0
             },
-            "unitIcon": "../resources/icons/units/eliteeaglewarrior"
+            "unitIcon": "../resources/icons/units/eliteeaglewarrior.png"
       },
       {
             "name": "Condottiero",
@@ -451,9 +451,9 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "barracks": 0
+                  "unitsBarracks": 0
             },
-            "unitIcon": "../resources/icons/units/condottiero"
+            "unitIcon": "../resources/icons/units/condottiero.png"
       },
       {
             "name": "Scout Cavalry",
@@ -489,9 +489,9 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "stable": 0
+                  "unitsStable": 0
             },
-            "unitIcon": "../resources/icons/units/scoutcavalry"
+            "unitIcon": "../resources/icons/units/scoutcavalry.png"
       },
       {
             "name": "Light Cavalry",
@@ -527,9 +527,9 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "stable": 0
+                  "unitsStable": 0
             },
-            "unitIcon": "../resources/icons/units/lightcavalry"
+            "unitIcon": "../resources/icons/units/lightcavalry.png"
       },
       {
             "name": "Hussar",
@@ -565,9 +565,9 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "stable": 0
+                  "unitsStable": 0
             },
-            "unitIcon": "../resources/icons/units/hussar"
+            "unitIcon": "../resources/icons/units/hussar.png"
       },
       {
             "name": "Knight",
@@ -603,9 +603,9 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "stable": 0
+                  "unitsStable": 0
             },
-            "unitIcon": "../resources/icons/units/knight"
+            "unitIcon": "../resources/icons/units/knight.png"
       },
       {
             "name": "Cavalier",
@@ -641,9 +641,9 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "stable": 0
+                  "unitsStable": 0
             },
-            "unitIcon": "../resources/icons/units/cavalier"
+            "unitIcon": "../resources/icons/units/cavalier.png"
       },
       {
             "name": "Paladin",
@@ -679,9 +679,9 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "stable": 0
+                  "unitsStable": 0
             },
-            "unitIcon": "../resources/icons/units/paladin"
+            "unitIcon": "../resources/icons/units/paladin.png"
       },
       {
             "name": "Camel Rider",
@@ -717,9 +717,9 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "stable": 0
+                  "unitsStable": 0
             },
-            "unitIcon": "../resources/icons/units/camelrider"
+            "unitIcon": "../resources/icons/units/camelrider.png"
       },
       {
             "name": "Heavy Camel Rider",
@@ -755,9 +755,9 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "stable": 0
+                  "unitsStable": 0
             },
-            "unitIcon": "../resources/icons/units/heavycamelrider"
+            "unitIcon": "../resources/icons/units/heavycamelrider.png"
       },
       {
             "name": "Imperial Camel Rider",
@@ -793,9 +793,9 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "stable": 0
+                  "unitsStable": 0
             },
-            "unitIcon": "../resources/icons/units/imperialcamelrider"
+            "unitIcon": "../resources/icons/units/imperialcamelrider.png"
       },
       {
             "name": "Battle Elephant",
@@ -831,9 +831,9 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "stable": 0
+                  "unitsStable": 0
             },
-            "unitIcon": "../resources/icons/units/battleelephant"
+            "unitIcon": "../resources/icons/units/battleelephant.png"
       },
       {
             "name": "Elite Battle Elephant",
@@ -869,9 +869,9 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "stable": 0
+                  "unitsStable": 0
             },
-            "unitIcon": "../resources/icons/units/elitebattleelephant"
+            "unitIcon": "../resources/icons/units/elitebattleelephant.png"
       },
       {
             "name": "Steppe Lancer",
@@ -907,9 +907,9 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "stable": 0
+                  "unitsStable": 0
             },
-            "unitIcon": "../resources/icons/units/steppelancer"
+            "unitIcon": "../resources/icons/units/steppelancer.png"
       },
       {
             "name": "Elite Steppe Lancer",
@@ -945,9 +945,9 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "stable": 0
+                  "unitsStable": 0
             },
-            "unitIcon": "../resources/icons/units/elitesteppelancer"
+            "unitIcon": "../resources/icons/units/elitesteppelancer.png"
       },
       {
             "name": "Archer",
@@ -983,9 +983,9 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "archeryRange": 0
+                  "unitsArcheryRange": 0
             },
-            "unitIcon": "../resources/icons/units/archer"
+            "unitIcon": "../resources/icons/units/archer.png"
       },
       {
             "name": "Crossbowman",
@@ -1021,9 +1021,9 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "archeryRange": 0
+                  "unitsArcheryRange": 0
             },
-            "unitIcon": "../resources/icons/units/crossbowman"
+            "unitIcon": "../resources/icons/units/crossbowman.png"
       },
       {
             "name": "Arbalester",
@@ -1059,9 +1059,9 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "archeryRange": 0
+                  "unitsArcheryRange": 0
             },
-            "unitIcon": "../resources/icons/units/arbalester"
+            "unitIcon": "../resources/icons/units/arbalester.png"
       },
       {
             "name": "Skirmisher",
@@ -1097,9 +1097,9 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "archeryRange": 0
+                  "unitsArcheryRange": 0
             },
-            "unitIcon": "../resources/icons/units/skirmisher"
+            "unitIcon": "../resources/icons/units/skirmisher.png"
       },
       {
             "name": "Elite Skirmisher",
@@ -1135,9 +1135,9 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "archeryRange": 0
+                  "unitsArcheryRange": 0
             },
-            "unitIcon": "../resources/icons/units/eliteskirmisher"
+            "unitIcon": "../resources/icons/units/eliteskirmisher.png"
       },
       {
             "name": "Imperial Skirmisher",
@@ -1173,9 +1173,9 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "archeryRange": 0
+                  "unitsArcheryRange": 0
             },
-            "unitIcon": "../resources/icons/units/imperialskirmisher"
+            "unitIcon": "../resources/icons/units/imperialskirmisher.png"
       },
       {
             "name": "Cavalry Archer",
@@ -1211,9 +1211,9 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "archeryRange": 0
+                  "unitsArcheryRange": 0
             },
-            "unitIcon": "../resources/icons/units/cavalryarcher"
+            "unitIcon": "../resources/icons/units/cavalryarcher.png"
       },
       {
             "name": "Heavy Cavalry Archer",
@@ -1249,9 +1249,9 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "archeryRange": 0
+                  "unitsArcheryRange": 0
             },
-            "unitIcon": "../resources/icons/units/heavycavalryarcher"
+            "unitIcon": "../resources/icons/units/heavycavalryarcher.png"
       },
       {
             "name": "Slinger",
@@ -1287,9 +1287,9 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "archeryRange": 0
+                  "unitsArcheryRange": 0
             },
-            "unitIcon": "../resources/icons/units/slinger"
+            "unitIcon": "../resources/icons/units/slinger.png"
       },
       {
             "name": "Genitour",
@@ -1325,9 +1325,9 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "archeryRange": 0
+                  "unitsArcheryRange": 0
             },
-            "unitIcon": "../resources/icons/units/genitour"
+            "unitIcon": "../resources/icons/units/genitour.png"
       },
       {
             "name": "Elite Genitour",
@@ -1363,2821 +1363,9 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "archeryRange": 0
+                  "unitsArcheryRange": 0
             },
-            "unitIcon": "../resources/icons/units/elitegenitour"
-      },
-      {
-            "name": "Petard",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/petard"
-      },
-      {
-            "name": "Trebuchet",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/trebuchet"
-      },
-      {
-            "name": "Longbowman",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/longbowman"
-      },
-      {
-            "name": "Elite Longbowman",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/elitelongbowman"
-      },
-      {
-            "name": "Cataphract",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/cataphract"
-      },
-      {
-            "name": "Elite Cataphract",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/elitecataphract"
-      },
-      {
-            "name": "Woad Raider",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/woadraider"
-      },
-      {
-            "name": "Elite Woad Raider",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/elitewoadraider"
-      },
-      {
-            "name": "Chu Ko Nu",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/chukonu"
-      },
-      {
-            "name": "Elite Chu Ko Nu",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/elitechukonu"
-      },
-      {
-            "name": "Throwing Axeman",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/throwingaxeman"
-      },
-      {
-            "name": "Elite Throwing Axeman",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/elitethrowingaxeman"
-      },
-      {
-            "name": "Huskarl",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/huskarl"
-      },
-      {
-            "name": "Elite Huskarl",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/elitehuskarl"
-      },
-      {
-            "name": "Samurai",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/samurai"
-      },
-      {
-            "name": "Elite Samurai",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/elitesamurai"
-      },
-      {
-            "name": "Mangudai",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/mangudai"
-      },
-      {
-            "name": "Elite Mangudai",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/elitemangudai"
-      },
-      {
-            "name": "War Elephan",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/warelephan"
-      },
-      {
-            "name": "Elite War Elephant",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/elitewarelephant"
-      },
-      {
-            "name": "Mameluke",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/mameluke"
-      },
-      {
-            "name": "Elite Mameluke",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/elitemameluke"
-      },
-      {
-            "name": "Teutonic Knight",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/teutonicknight"
-      },
-      {
-            "name": "Elite Teutonic Knight",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/eliteteutonicknight"
-      },
-      {
-            "name": "Janissary",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/janissary"
-      },
-      {
-            "name": "Elite Janissary",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/elitejanissary"
-      },
-      {
-            "name": "Berserk",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/berserk"
-      },
-      {
-            "name": "Elite Berserk",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/eliteberserk"
-      },
-      {
-            "name": "Jaguar Warrior",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/jaguarwarrior"
-      },
-      {
-            "name": "Elite Jaguar Warrior",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/elitejaguarwarrior"
-      },
-      {
-            "name": "Tarkan",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/tarkan"
-      },
-      {
-            "name": "Elite Tarkan",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/elitetarkan"
-      },
-      {
-            "name": "War Wagon",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/warwagon"
-      },
-      {
-            "name": "Elite War Wagon",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/elitewarwagon"
-      },
-      {
-            "name": "Plumed Archer",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/plumedarcher"
-      },
-      {
-            "name": "Elite Plumed Archer",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/eliteplumedarcher"
-      },
-      {
-            "name": "Conquistador",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/conquistador"
-      },
-      {
-            "name": "Elite Conquistador",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/eliteconquistador"
-      },
-      {
-            "name": "Kamayuk",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/kamayuk"
-      },
-      {
-            "name": "Elite Kamayuk",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/elitekamayuk"
-      },
-      {
-            "name": "Elephant Archer",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/elephantarcher"
-      },
-      {
-            "name": "Elite Elephant Archer",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/eliteelephantarcher"
-      },
-      {
-            "name": "Genoese Crossbowman",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/genoesecrossbowman"
-      },
-      {
-            "name": "Elite Genoese Crossbowman",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/elitegenoesecrossbowman"
-      },
-      {
-            "name": "Magyar Huszar",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/magyarhuszar"
-      },
-      {
-            "name": "Elite Magyar Huszar",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/elitemagyarhuszar"
-      },
-      {
-            "name": "Boyar",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/boyar"
-      },
-      {
-            "name": "Elite Boyar",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/eliteboyar"
-      },
-      {
-            "name": "Camer Archer",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/camerarcher"
-      },
-      {
-            "name": "Elite Camel Archer",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/elitecamelarcher"
-      },
-      {
-            "name": "Shotel Warrior",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/shotelwarrior"
-      },
-      {
-            "name": "Elite Shotel Warrior",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/eliteshotelwarrior"
-      },
-      {
-            "name": "Gbeto",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/gbeto"
-      },
-      {
-            "name": "Elite Gbeto",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/elitegbeto"
-      },
-      {
-            "name": "Organ Gun",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/organgun"
-      },
-      {
-            "name": "Elite Organ Gun",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/eliteorgangun"
-      },
-      {
-            "name": "Arambai",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/arambai"
-      },
-      {
-            "name": "Elite Arambai",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/elitearambai"
-      },
-      {
-            "name": "Ballista Elephant",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/ballistaelephant"
-      },
-      {
-            "name": "Elite Ballista Elephant",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/eliteballistaelephant"
-      },
-      {
-            "name": "Karambit Warrior",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/karambitwarrior"
-      },
-      {
-            "name": "Elite Karambit Warrior",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/elitekarambitwarrior"
-      },
-      {
-            "name": "Rattan Archer",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/rattanarcher"
-      },
-      {
-            "name": "Elite Rattan Archer",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/eliterattanarcher"
-      },
-      {
-            "name": "Konnik",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/konnik"
-      },
-      {
-            "name": "Elite Konnik",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/elitekonnik"
-      },
-      {
-            "name": "Kipchak",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/kipchak"
-      },
-      {
-            "name": "Elite Kipchak",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/elitekipchak"
-      },
-      {
-            "name": "Leitis",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/leitis"
-      },
-      {
-            "name": "Elite Leitis",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/eliteleitis"
-      },
-      {
-            "name": "Keshik",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/keshik"
-      },
-      {
-            "name": "Elite Keshik",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/elitekeshik"
-      },
-      {
-            "name": "Coustillier",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/coustillier"
-      },
-      {
-            "name": "Serjeant",
-            "type": "Placeholder",
-            "civilization": "Placeholder",
-            "age": "Placeholder",
-            "cost": {
-                  "food": 0,
-                  "gold": 0,
-                  "wood": 0
-            },
-            "hitPoints": 0,
-            "attackType": "placeholder",
-            "attack": 0,
-            "attackBonus": {
-                  "Unit1": 0,
-                  "Unit2": 0,
-                  "Unit3": 0,
-                  "Unit4": 0,
-                  "Unit5": 0,
-                  "Unit6": 0
-            },
-            "attackDelay": 0,
-            "rateOfFire": 0,
-            "meleeArmour": 0,
-            "pierceArmour": 0,
-            "armourClass": [
-                  "Type1",
-                  "Type2",
-                  "Type3"
-            ],
-            "speed": 0,
-            "lineOfSight": 0,
-            "unique": false,
-            "trainingTime": {
-                  "castle": 0
-            },
-            "unitIcon": "../resources/icons/units/serjeant"
+            "unitIcon": "../resources/icons/units/elitegenitour.png"
       },
       {
             "name": "Battering Ram",
@@ -4213,9 +1401,9 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "workshop": 0
+                  "unitsWorkshop": 0
             },
-            "unitIcon": "../resources/icons/units/batteringram"
+            "unitIcon": "../resources/icons/units/batteringram.png"
       },
       {
             "name": "Capped Ram",
@@ -4251,9 +1439,9 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "workshop": 0
+                  "unitsWorkshop": 0
             },
-            "unitIcon": "../resources/icons/units/cappedram"
+            "unitIcon": "../resources/icons/units/cappedram.png"
       },
       {
             "name": "Siege Ram",
@@ -4289,9 +1477,9 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "workshop": 0
+                  "unitsWorkshop": 0
             },
-            "unitIcon": "../resources/icons/units/siegeram"
+            "unitIcon": "../resources/icons/units/siegeram.png"
       },
       {
             "name": "Mangonel",
@@ -4327,9 +1515,9 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "workshop": 0
+                  "unitsWorkshop": 0
             },
-            "unitIcon": "../resources/icons/units/mangonel"
+            "unitIcon": "../resources/icons/units/mangonel.png"
       },
       {
             "name": "Onager",
@@ -4365,9 +1553,9 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "workshop": 0
+                  "unitsWorkshop": 0
             },
-            "unitIcon": "../resources/icons/units/onager"
+            "unitIcon": "../resources/icons/units/onager.png"
       },
       {
             "name": "Siege Onager",
@@ -4403,9 +1591,9 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "workshop": 0
+                  "unitsWorkshop": 0
             },
-            "unitIcon": "../resources/icons/units/siegeonager"
+            "unitIcon": "../resources/icons/units/siegeonager.png"
       },
       {
             "name": "Scorpion",
@@ -4441,9 +1629,9 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "workshop": 0
+                  "unitsWorkshop": 0
             },
-            "unitIcon": "../resources/icons/units/scorpion"
+            "unitIcon": "../resources/icons/units/scorpion.png"
       },
       {
             "name": "Heavy Scorpion",
@@ -4479,9 +1667,9 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "workshop": 0
+                  "unitsWorkshop": 0
             },
-            "unitIcon": "../resources/icons/units/heavyscorpion"
+            "unitIcon": "../resources/icons/units/heavyscorpion.png"
       },
       {
             "name": "Bombard Cannon",
@@ -4517,9 +1705,9 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "workshop": 0
+                  "unitsWorkshop": 0
             },
-            "unitIcon": "../resources/icons/units/bombardcannon"
+            "unitIcon": "../resources/icons/units/bombardcannon.png"
       },
       {
             "name": "Siege Tower",
@@ -4555,12 +1743,12 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "workshop": 0
+                  "unitsWorkshop": 0
             },
-            "unitIcon": "../resources/icons/units/siegetower"
+            "unitIcon": "../resources/icons/units/siegetower.png"
       },
       {
-            "name": "Monk",
+            "name": "Petard",
             "type": "Placeholder",
             "civilization": "Placeholder",
             "age": "Placeholder",
@@ -4593,12 +1781,12 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "monastery": 0
+                  "unitsCastle": 0
             },
-            "unitIcon": "../resources/icons/units/monk"
+            "unitIcon": "../resources/icons/units/petard.png"
       },
       {
-            "name": "Missionary",
+            "name": "Trebuchet",
             "type": "Placeholder",
             "civilization": "Placeholder",
             "age": "Placeholder",
@@ -4631,12 +1819,12 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "monastery": 0
+                  "unitsCastle": 0
             },
-            "unitIcon": "../resources/icons/units/missionary"
+            "unitIcon": "../resources/icons/units/trebuchet.png"
       },
       {
-            "name": "Villager",
+            "name": "Longbowman",
             "type": "Placeholder",
             "civilization": "Placeholder",
             "age": "Placeholder",
@@ -4669,12 +1857,12 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "townCenter": 0
+                  "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/villager"
+            "unitIcon": "../resources/icons/units/longbowman.png"
       },
       {
-            "name": "Trade Cart",
+            "name": "Elite Longbowman",
             "type": "Placeholder",
             "civilization": "Placeholder",
             "age": "Placeholder",
@@ -4707,12 +1895,12 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "market": 0
+                  "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/tradecart"
+            "unitIcon": "../resources/icons/units/elitelongbowman.png"
       },
       {
-            "name": "Fishing Ship",
+            "name": "Cataphract",
             "type": "Placeholder",
             "civilization": "Placeholder",
             "age": "Placeholder",
@@ -4745,12 +1933,12 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "dock": 0
+                  "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/fishingship"
+            "unitIcon": "../resources/icons/units/cataphract.png"
       },
       {
-            "name": "Galley",
+            "name": "Elite Cataphract",
             "type": "Placeholder",
             "civilization": "Placeholder",
             "age": "Placeholder",
@@ -4783,12 +1971,12 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "dock": 0
+                  "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/galley"
+            "unitIcon": "../resources/icons/units/elitecataphract.png"
       },
       {
-            "name": "Galleon",
+            "name": "Woad Raider",
             "type": "Placeholder",
             "civilization": "Placeholder",
             "age": "Placeholder",
@@ -4821,12 +2009,12 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "dock": 0
+                  "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/galleon"
+            "unitIcon": "../resources/icons/units/woadraider.png"
       },
       {
-            "name": "War Galley",
+            "name": "Elite Woad Raider",
             "type": "Placeholder",
             "civilization": "Placeholder",
             "age": "Placeholder",
@@ -4859,9 +2047,2137 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "dock": 0
+                  "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/wargalley"
+            "unitIcon": "../resources/icons/units/elitewoadraider.png"
+      },
+      {
+            "name": "Chu Ko Nu",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/chukonu.png"
+      },
+      {
+            "name": "Elite Chu Ko Nu",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/elitechukonu.png"
+      },
+      {
+            "name": "Throwing Axeman",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/throwingaxeman.png"
+      },
+      {
+            "name": "Elite Throwing Axeman",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/elitethrowingaxeman.png"
+      },
+      {
+            "name": "Huskarl",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/huskarl.png"
+      },
+      {
+            "name": "Elite Huskarl",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/elitehuskarl.png"
+      },
+      {
+            "name": "Samurai",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/samurai.png"
+      },
+      {
+            "name": "Elite Samurai",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/elitesamurai.png"
+      },
+      {
+            "name": "Mangudai",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/mangudai.png"
+      },
+      {
+            "name": "Elite Mangudai",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/elitemangudai.png"
+      },
+      {
+            "name": "War Elephan",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/warelephan.png"
+      },
+      {
+            "name": "Elite War Elephant",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/elitewarelephant.png"
+      },
+      {
+            "name": "Mameluke",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/mameluke.png"
+      },
+      {
+            "name": "Elite Mameluke",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/elitemameluke.png"
+      },
+      {
+            "name": "Teutonic Knight",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/teutonicknight.png"
+      },
+      {
+            "name": "Elite Teutonic Knight",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/eliteteutonicknight.png"
+      },
+      {
+            "name": "Janissary",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/janissary.png"
+      },
+      {
+            "name": "Elite Janissary",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/elitejanissary.png"
+      },
+      {
+            "name": "Berserk",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/berserk.png"
+      },
+      {
+            "name": "Elite Berserk",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/eliteberserk.png"
+      },
+      {
+            "name": "Jaguar Warrior",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/jaguarwarrior.png"
+      },
+      {
+            "name": "Elite Jaguar Warrior",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/elitejaguarwarrior.png"
+      },
+      {
+            "name": "Tarkan",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/tarkan.png"
+      },
+      {
+            "name": "Elite Tarkan",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/elitetarkan.png"
+      },
+      {
+            "name": "War Wagon",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/warwagon.png"
+      },
+      {
+            "name": "Elite War Wagon",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/elitewarwagon.png"
+      },
+      {
+            "name": "Plumed Archer",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/plumedarcher.png"
+      },
+      {
+            "name": "Elite Plumed Archer",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/eliteplumedarcher.png"
+      },
+      {
+            "name": "Conquistador",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/conquistador.png"
+      },
+      {
+            "name": "Elite Conquistador",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/eliteconquistador.png"
+      },
+      {
+            "name": "Kamayuk",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/kamayuk.png"
+      },
+      {
+            "name": "Elite Kamayuk",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/elitekamayuk.png"
+      },
+      {
+            "name": "Elephant Archer",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/elephantarcher.png"
+      },
+      {
+            "name": "Elite Elephant Archer",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/eliteelephantarcher.png"
+      },
+      {
+            "name": "Genoese Crossbowman",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/genoesecrossbowman.png"
+      },
+      {
+            "name": "Elite Genoese Crossbowman",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/elitegenoesecrossbowman.png"
+      },
+      {
+            "name": "Magyar Huszar",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/magyarhuszar.png"
+      },
+      {
+            "name": "Elite Magyar Huszar",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/elitemagyarhuszar.png"
+      },
+      {
+            "name": "Boyar",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/boyar.png"
+      },
+      {
+            "name": "Elite Boyar",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/eliteboyar.png"
+      },
+      {
+            "name": "Camer Archer",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/camerarcher.png"
+      },
+      {
+            "name": "Elite Camel Archer",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/elitecamelarcher.png"
+      },
+      {
+            "name": "Shotel Warrior",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/shotelwarrior.png"
+      },
+      {
+            "name": "Elite Shotel Warrior",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/eliteshotelwarrior.png"
+      },
+      {
+            "name": "Gbeto",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/gbeto.png"
+      },
+      {
+            "name": "Elite Gbeto",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/elitegbeto.png"
+      },
+      {
+            "name": "Organ Gun",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/organgun.png"
+      },
+      {
+            "name": "Elite Organ Gun",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/eliteorgangun.png"
+      },
+      {
+            "name": "Arambai",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/arambai.png"
+      },
+      {
+            "name": "Elite Arambai",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/elitearambai.png"
+      },
+      {
+            "name": "Ballista Elephant",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/ballistaelephant.png"
+      },
+      {
+            "name": "Elite Ballista Elephant",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/eliteballistaelephant.png"
+      },
+      {
+            "name": "Karambit Warrior",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/karambitwarrior.png"
+      },
+      {
+            "name": "Elite Karambit Warrior",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/elitekarambitwarrior.png"
+      },
+      {
+            "name": "Rattan Archer",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/rattanarcher.png"
+      },
+      {
+            "name": "Elite Rattan Archer",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/eliterattanarcher.png"
       },
       {
             "name": "Konnik",
@@ -4897,9 +4213,9 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "krepost": 0
+                  "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/konnik"
+            "unitIcon": "../resources/icons/units/konnik.png"
       },
       {
             "name": "Elite Konnik",
@@ -4935,8 +4251,654 @@
             "lineOfSight": 0,
             "unique": false,
             "trainingTime": {
-                  "krepost": 0
+                  "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/elitekonnik"
+            "unitIcon": "../resources/icons/units/elitekonnik.png"
+      },
+      {
+            "name": "Kipchak",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/kipchak.png"
+      },
+      {
+            "name": "Elite Kipchak",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/elitekipchak.png"
+      },
+      {
+            "name": "Leitis",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/leitis.png"
+      },
+      {
+            "name": "Elite Leitis",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/eliteleitis.png"
+      },
+      {
+            "name": "Keshik",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/keshik.png"
+      },
+      {
+            "name": "Elite Keshik",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/elitekeshik.png"
+      },
+      {
+            "name": "Coustillier",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/coustillier.png"
+      },
+      {
+            "name": "Serjeant",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsUnique": 0
+            },
+            "unitIcon": "../resources/icons/units/serjeant.png"
+      },
+      {
+            "name": "Villager",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsTownCenter": 0
+            },
+            "unitIcon": "../resources/icons/units/villager.png"
+      },
+      {
+            "name": "Trade Cart",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsMarket": 0
+            },
+            "unitIcon": "../resources/icons/units/tradecart.png"
+      },
+      {
+            "name": "Monk",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsMonastery": 0
+            },
+            "unitIcon": "../resources/icons/units/monk.png"
+      },
+      {
+            "name": "Missionary",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsMonastery": 0
+            },
+            "unitIcon": "../resources/icons/units/missionary.png"
+      },
+      {
+            "name": "Fishing Ship",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsDock": 0
+            },
+            "unitIcon": "../resources/icons/units/fishingship.png"
+      },
+      {
+            "name": "Galley",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsDock": 0
+            },
+            "unitIcon": "../resources/icons/units/galley.png"
+      },
+      {
+            "name": "Galleon",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsDock": 0
+            },
+            "unitIcon": "../resources/icons/units/galleon.png"
+      },
+      {
+            "name": "War Galley",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsDock": 0
+            },
+            "unitIcon": "../resources/icons/units/wargalley.png"
+      },
+      {
+            "name": "Placeholder",
+            "type": "Placeholder",
+            "civilization": "Placeholder",
+            "age": "Placeholder",
+            "cost": {
+                  "food": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "attackType": "placeholder",
+            "attack": 0,
+            "attackBonus": {
+                  "Unit1": 0,
+                  "Unit2": 0,
+                  "Unit3": 0,
+                  "Unit4": 0,
+                  "Unit5": 0,
+                  "Unit6": 0
+            },
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "speed": 0,
+            "lineOfSight": 0,
+            "unique": false,
+            "trainingTime": {
+                  "unitsPlaceholder": 0
+            },
+            "unitIcon": "../resources/icons/units/placeholder.png"
       }
 ]

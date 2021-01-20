@@ -3,7 +3,7 @@ const fs = require("fs");
 const stats = require("./data/statistics/statistics.json");
 let statisticsContent = Object.keys(stats.civilizations).concat(Object.keys(stats.units), Object.keys(stats.buildings), Object.keys(stats.technologies));
 
-let statisticsIncrementor = (req, res, next) => {
+const statisticsIncrementor = (req, res, next) => {
     let category = req.params.category.toLowerCase();
     let name = req.params.name.toLowerCase();
     if(statisticsContent.includes(name)) {
@@ -17,6 +17,23 @@ let statisticsIncrementor = (req, res, next) => {
     }  
 }
 
+/** Main scripter for Units, Techs and Buildings */
+const mainScripter = (data, defaults) => {
+    let output = [];
+    for(const [catName, objNames] of Object.entries(data)){
+        for(const name of objNames){
+            output.push({
+                name,
+                ...defaults,
+                trainingTime: {[catName]: 0},
+                unitIcon: `../resources/icons/units/${name.split(" ").join("").split("-").join("").toLowerCase()}.png`,
+            });
+        }
+    }
+    return output;
+}
+
 module.exports = {
-    statisticsIncrementor
+    statisticsIncrementor,
+    mainScripter
 }
