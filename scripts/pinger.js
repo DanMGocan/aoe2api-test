@@ -24,14 +24,20 @@ const ping = (category, inputArray) => {
         .then(data => {
            // console.log(data);
            // console.log(inputArray);
-  
-            let log = `[${data.uri}] successfully pinged at [[${time.toLocaleString()}]] \n\n`
-            fs.appendFileSync(`../log.js`, JSON.stringify(log, null, 10), err => err ? console.error("Unit cannot be reached!") : console.log(`${output.name} successfully pinged!`)) 
-        })}}
+            output.push(
+                `${[data.uri]} pinged at [[${time.toLocaleString()}]]`
+            )
+            return output; 
+        })
+        .then(output => {
+            fs.writeFileSync(`../log.js`, JSON.stringify(output, null, 10), err => err ? console.error("Unit cannot be reached!") : console.log(`${output.name} successfully pinged!`)) 
+        })
+    }}
+
         
     
 
-    ping("units", inputUnits)
+    ping("units", inputUnits) //use two arrays with the same index categories[i] elements[i],
     
 
 /*
