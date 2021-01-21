@@ -6,9 +6,14 @@ const allUnits = JSON.parse(data);
 
 const unitsRouter = express.Router(); 
 
-const getUnit = async (req, res, next) => {
+unitsRouter.get("/", (req, res, next) => {
+    res.json(allUnits);
+});
+
+unitsRouter.get("/:name", (req, res, next) => {
     try {
-        const unit = allUnits.find(unit => unit.name.split(" ").join("").split("-").join("").toLowerCase() == req.params.name.split(" ").join("").split("-").join("").toLowerCase())
+        console.log(req.params.name);
+        const unit = allUnits.find(unit => unit.uri == req.params.name)
         if(!unit) {
             const err = new Error("Unit was not found!");
             err.status = 404;
@@ -20,13 +25,7 @@ const getUnit = async (req, res, next) => {
         catch(e) {
             next(e);
         }
-    }
-
-unitsRouter.get("/", (req, res, next) => {
-    res.json(allUnits);
 })
-
-unitsRouter.route("/:name").get(getUnit); 
 
 module.exports = {
     unitsRouter

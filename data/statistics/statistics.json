@@ -40,7 +40,9 @@
           },
           "units": {
                     "huskarl": 5,
-                    "longbowman": 4
+                    "longbowman": 5,
+                    "militia": 1,
+                    "archer": 0
           },
           "technologies": {
                     "fletching": 10

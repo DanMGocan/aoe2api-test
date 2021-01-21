@@ -19,9 +19,9 @@ const statistics = require("./data/statistics/statistics.json")
 const { statisticsIncrementor } = require("./helperFunctions");
 
 /* Added as a helper for the statisticsIncrementor listener */
-const homeRouter = express.Router();
-app.use("/", homeRouter);
-homeRouter.use("/:category/:name", statisticsIncrementor);
+//const homeRouter = express.Router();
+//app.use("/", homeRouter);
+//homeRouter.use("/:category/:name", statisticsIncrementor);
 
 /* Serving the favicon, yes I know :) */
 const favicon = require("serve-favicon");

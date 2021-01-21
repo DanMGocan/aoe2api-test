@@ -22,8 +22,10 @@ const mainScripter = (data, defaults) => {
     let output = [];
     for(const [catName, objNames] of Object.entries(data)){
         for(const name of objNames){
+            let uri = name.split(" ").join("").split("-").join("").toLowerCase();
             output.push({
                 name,
+                uri: uri,
                 ...defaults,
                 trainingTime: {[catName]: 0},
                 unitIcon: `../resources/icons/units/${name.split(" ").join("").split("-").join("").toLowerCase()}.png`,
