@@ -1,5 +1,5 @@
 const fs = require("fs");
-const { units } = require("../data/arrays");
+const { all } = require("../data/arrays");
 const { mainScripter } = require("../helperFunctions");
 
 const unitDefaults = {
@@ -33,6 +33,6 @@ const unitDefaults = {
     "unique": false
 };
 
-let output = mainScripter(units, unitDefaults, "trainingTime");
+let output = mainScripter(all.units, unitDefaults, "trainingTime");
 fs.writeFileSync(`../data/units.json`, JSON.stringify(output, null, 6), err => err ? console.error(err) : console.log(`Successfully wrote units`));
 

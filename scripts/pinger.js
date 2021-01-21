@@ -1,17 +1,48 @@
 /* Ping all units and write the results in a log */
-const { units } = require("../data/arrays");
+const { all } = require("../data/arrays");
 const fs = require("fs");
 const fetch = require("node-fetch");
-let input = [];
+let categories = Object.keys(all);
 let output = [];
 
-for (unit of Object.values(units).flat()) {
-    input.push(unit.toLowerCase().replace(/[ -]/g, ''));
+let inputUnits = Object.values(all.units).flat()
+console.log(typeof inputUnits);
+let inputTechnologies = Object.values(all.technologies).flat();
+let inputBuildings = Object.values(all.buildings).flat();
+let inputCivilizations = Object.values(all.civilizations).flat();
+
+
+
+
+
+
+const ping = (category, inputArray) => {
+    for (element of inputArray) {
+        let time = new Date();
+        fetch(`https://aoe2api-test.herokuapp.com/${category}/${element.toLowerCase().replace(/[ -]/g, '')}`)
+        .then(response => response.json())
+        .then(data => {
+           // console.log(data);
+           // console.log(inputArray);
+  
+            let log = `[${data.uri}] successfully pinged at [[${time.toLocaleString()}]] \n\n`
+            fs.appendFileSync(`../log.js`, JSON.stringify(log, null, 10), err => err ? console.error("Unit cannot be reached!") : console.log(`${output.name} successfully pinged!`)) 
+        })}}
+        
+    
+
+    ping("units", inputUnits)
+    
+
+/*
+for (unit of Object.values(all.units).flat()) {
+    inputUnits.push(unit.toLowerCase().replace(/[ -]/g, ''));
 }
+
 
 for (unit of input) {
     let time = new Date();
-    fetch(`https://aoe2api-test.herokuapp.com/units/${unit}`)
+    fetch(`https://aoe2api-test.herokuapp.com/units/${unit}`
     .then(response => response.json())
     .then(data => {
        output.push(
@@ -23,3 +54,4 @@ for (unit of input) {
         fs.writeFileSync(`../log.js`, JSON.stringify(output, null, 10), err => err ? console.error("Unit cannot be reached!") : console.log(`${output.name} successfully pinged!`)) 
     });
 }
+*/

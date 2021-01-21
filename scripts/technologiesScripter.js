@@ -1,10 +1,10 @@
 const fs = require("fs");
-const { technologies } = require("../data/arrays");
+const { all } = require("../data/arrays");
 const { mainScripter } = require("../helperFunctions");
 
 const techDefaults = {
     "age": "Placeholder Age", 
-    "toggle": true,
+    "toggle": false,
     "unique": false,
     "effect" : {
         "cost": {
@@ -25,6 +25,6 @@ const techDefaults = {
     "unitsAffected": ["Placeholder Placeholder Placeholder"]
 };
 
-let output = mainScripter(technologies, techDefaults, "researchTime");
+let output = mainScripter(all.technologies, techDefaults, "researchTime");
 fs.writeFileSync(`../data/technologies.json`, JSON.stringify(output, null, 6), err => err ? console.error(err) : console.log(`Successfully wrote units`));
 
