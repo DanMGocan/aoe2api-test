@@ -2,29 +2,22 @@
 const request = require('request');
 const { units } = require("../data/arrays");
 const fs = require("fs");
-let unitsflat = Object.values(units).flat();
-let i = 0;
-/*
-const pinger = data => {
-    console.log(data);
-        for(const unit of Object.values(data).flat()){
-            console.log(`https://aoe2api-test.herokuapp.com/units/${unit.split(" ").join("").split("-").join("").toLowerCase()}`);
-            request(`https://aoe2api-test.herokuapp.com/units/${unit.split(" ").join("").split("-").join("").toLowerCase()}`, { json: true }, (err, res, body) => {
-                    fs.appendFile(`../log.js`, JSON.stringify(body, null, 6), err => err ? console.error(err) : console.log(`Successfully pinged units`));
-                })
-    }
+let input = [];
+
+for (unit of Object.values(units).flat()) {
+    input.push(unit.split(" ").join("").split("-").join("").toLowerCase());
 }
+
+for (unit of input) {
+    request(`https://aoe2api-test.herokuapp.com/units/${unit}`, { json: true }, (err, res, body) => {
+    console.log(body.name);
+})
+}
+    
+        //fs.appendFile(`../log.js`, JSON.stringify(res, null, 6), err => err ? console.error(err) : console.log(`Successfully pinged unit`));000);
+
+/*
+request(`https://aoe2api-test.herokuapp.com/units`, { json: true }, (err, res, body) => {
+    console.log(body);
+});
 */
-setInterval(function(){ 
-    request(`https://aoe2api-test.herokuapp.com/units/${unitsflat[i].split(" ").join("").split("-").join("").toLowerCase()}`, { json: true }, (err, res, body) => {
-                     i++;
-    console.log(res);
-                    fs.appendFile(`../log.js`, JSON.stringify(body, null, 6), err => err ? console.error(err) : console.log(`Successfully pinged units`));
-                })
-}, 1000);
-
-/* Ping all civilizations and write the results in a log */
-
-/* Ping all technologies and write the results in a log */
-
-/* Ping all buildings and write the results in a log */
