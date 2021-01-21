@@ -14,6 +14,7 @@ const unitDefaults = {
     "hitPoints": 0,
     "attackType": "placeholder",
     "attack": 0,
+    "range": 0,
     "attackBonus": {
         "Unit1": 0,
         "Unit2": 0,
@@ -32,7 +33,6 @@ const unitDefaults = {
     "unique": false
 };
 
-let output = mainScripter(units, unitDefaults);
-
+let output = mainScripter(units, unitDefaults, "trainingTime");
 fs.writeFileSync(`../data/units.json`, JSON.stringify(output, null, 6), err => err ? console.error(err) : console.log(`Successfully wrote units`));
 
