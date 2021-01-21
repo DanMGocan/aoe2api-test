@@ -1,15 +1,2312 @@
 [
-    {
-        "name": "Fletching", 
-        "toggle": true,
-        "unique": false,
-        "attack": 1,
-        "range": 1,
-        "unitsAffected": ["Archer", "Crossbowman", "Arbalester", "Skirmisher", "Elite Skirmisher", "Imperial Skirmisher", "Cavalry Archer", "Heavy Cavalry Archer", "Slinger", 
-            "Hand Cannoneer", "Genitour", "Elite Genitour", "Longbowman", "Elite Longbowman", "Chu Ko Nu", "Elite Chu Ko Nu", "Mangudai", "Elite Mangudai", "Janissary", 
-            "Elite Janissary", "War Wagon", "Elite War Wagon", "Plumed Archer", "Elite Plumed Archer", "Conquistador", "Elite Conquistador", "Elephant Archer", "Elite Elephant Archer",
-            "Genoese Crossbowman", "Elite Genoese Crossbowman", "Camel Archer", "Elite Camel Archer", "Arambai", "Elite Arambai", "Rattan Archer", "Elite Rattan Archer", "Kipchak", 
-            "Elite Kipchak", "Organ Gun", "Ballista Elephan", "Elite Ballista Elephant", "Scorpion", "Heavy Scorpion", "Trebuchet", "Galley", "War Galley", "Galleon", "Fire Ship", 
-            "Fast Fire Ship", "Longboat", "Elite Longboat", "Caravel", "Elite Caravel"]
-    }
+      {
+            "name": "Supplies",
+            "uri": "supplies",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesBarracks": 0
+            },
+            "icon": "../resources/icons/units/supplies.png"
+      },
+      {
+            "name": "Arson",
+            "uri": "arson",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesBarracks": 0
+            },
+            "icon": "../resources/icons/units/arson.png"
+      },
+      {
+            "name": "Squires",
+            "uri": "squires",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesBarracks": 0
+            },
+            "icon": "../resources/icons/units/squires.png"
+      },
+      {
+            "name": "Bloodlines",
+            "uri": "bloodlines",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesStable": 0
+            },
+            "icon": "../resources/icons/units/bloodlines.png"
+      },
+      {
+            "name": "Husbandry",
+            "uri": "husbandry",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesStable": 0
+            },
+            "icon": "../resources/icons/units/husbandry.png"
+      },
+      {
+            "name": "Thumb Ring",
+            "uri": "thumbring",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesArcheryRange": 0
+            },
+            "icon": "../resources/icons/units/thumbring.png"
+      },
+      {
+            "name": "Parthian Tactics",
+            "uri": "parthiantactics",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesArcheryRange": 0
+            },
+            "icon": "../resources/icons/units/parthiantactics.png"
+      },
+      {
+            "name": "uniqueCastleAge",
+            "uri": "uniquecastleage",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesCastle": 0
+            },
+            "icon": "../resources/icons/units/uniquecastleage.png"
+      },
+      {
+            "name": "uniqueImperialAge",
+            "uri": "uniqueimperialage",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesCastle": 0
+            },
+            "icon": "../resources/icons/units/uniqueimperialage.png"
+      },
+      {
+            "name": "Hoardings",
+            "uri": "hoardings",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesCastle": 0
+            },
+            "icon": "../resources/icons/units/hoardings.png"
+      },
+      {
+            "name": "Sappers",
+            "uri": "sappers",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesCastle": 0
+            },
+            "icon": "../resources/icons/units/sappers.png"
+      },
+      {
+            "name": "Conscription",
+            "uri": "conscription",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesCastle": 0
+            },
+            "icon": "../resources/icons/units/conscription.png"
+      },
+      {
+            "name": "Spies/Treason",
+            "uri": "spies/treason",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesCastle": 0
+            },
+            "icon": "../resources/icons/units/spies/treason.png"
+      },
+      {
+            "name": "Gillnets",
+            "uri": "gillnets",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesDock": 0
+            },
+            "icon": "../resources/icons/units/gillnets.png"
+      },
+      {
+            "name": "Careening",
+            "uri": "careening",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesDock": 0
+            },
+            "icon": "../resources/icons/units/careening.png"
+      },
+      {
+            "name": "Dry Dock",
+            "uri": "drydock",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesDock": 0
+            },
+            "icon": "../resources/icons/units/drydock.png"
+      },
+      {
+            "name": "Shipwright",
+            "uri": "shipwright",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesDock": 0
+            },
+            "icon": "../resources/icons/units/shipwright.png"
+      },
+      {
+            "name": "Padded Archer Armour",
+            "uri": "paddedarcherarmour",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesBlacksmith": 0
+            },
+            "icon": "../resources/icons/units/paddedarcherarmour.png"
+      },
+      {
+            "name": "Leather Archer Armour",
+            "uri": "leatherarcherarmour",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesBlacksmith": 0
+            },
+            "icon": "../resources/icons/units/leatherarcherarmour.png"
+      },
+      {
+            "name": "Ring Archer Armour",
+            "uri": "ringarcherarmour",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesBlacksmith": 0
+            },
+            "icon": "../resources/icons/units/ringarcherarmour.png"
+      },
+      {
+            "name": "Fletching",
+            "uri": "fletching",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesBlacksmith": 0
+            },
+            "icon": "../resources/icons/units/fletching.png"
+      },
+      {
+            "name": "Bodkin Arrow",
+            "uri": "bodkinarrow",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesBlacksmith": 0
+            },
+            "icon": "../resources/icons/units/bodkinarrow.png"
+      },
+      {
+            "name": "Bracer",
+            "uri": "bracer",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesBlacksmith": 0
+            },
+            "icon": "../resources/icons/units/bracer.png"
+      },
+      {
+            "name": "Forging",
+            "uri": "forging",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesBlacksmith": 0
+            },
+            "icon": "../resources/icons/units/forging.png"
+      },
+      {
+            "name": "Iron Casting",
+            "uri": "ironcasting",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesBlacksmith": 0
+            },
+            "icon": "../resources/icons/units/ironcasting.png"
+      },
+      {
+            "name": "Blast Furnace",
+            "uri": "blastfurnace",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesBlacksmith": 0
+            },
+            "icon": "../resources/icons/units/blastfurnace.png"
+      },
+      {
+            "name": "Scale Barding Armour",
+            "uri": "scalebardingarmour",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesBlacksmith": 0
+            },
+            "icon": "../resources/icons/units/scalebardingarmour.png"
+      },
+      {
+            "name": "Chain Barding Armour",
+            "uri": "chainbardingarmour",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesBlacksmith": 0
+            },
+            "icon": "../resources/icons/units/chainbardingarmour.png"
+      },
+      {
+            "name": "Plate Barding Armour",
+            "uri": "platebardingarmour",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesBlacksmith": 0
+            },
+            "icon": "../resources/icons/units/platebardingarmour.png"
+      },
+      {
+            "name": "Scale Mail Armour",
+            "uri": "scalemailarmour",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesBlacksmith": 0
+            },
+            "icon": "../resources/icons/units/scalemailarmour.png"
+      },
+      {
+            "name": "Chain Mail Armour",
+            "uri": "chainmailarmour",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesBlacksmith": 0
+            },
+            "icon": "../resources/icons/units/chainmailarmour.png"
+      },
+      {
+            "name": "Plate Mail Armour",
+            "uri": "platemailarmour",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesBlacksmith": 0
+            },
+            "icon": "../resources/icons/units/platemailarmour.png"
+      },
+      {
+            "name": "Masonry",
+            "uri": "masonry",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesUniversity": 0
+            },
+            "icon": "../resources/icons/units/masonry.png"
+      },
+      {
+            "name": "Architecture",
+            "uri": "architecture",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesUniversity": 0
+            },
+            "icon": "../resources/icons/units/architecture.png"
+      },
+      {
+            "name": "Fortified Wall",
+            "uri": "fortifiedwall",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesUniversity": 0
+            },
+            "icon": "../resources/icons/units/fortifiedwall.png"
+      },
+      {
+            "name": "Chemistry",
+            "uri": "chemistry",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesUniversity": 0
+            },
+            "icon": "../resources/icons/units/chemistry.png"
+      },
+      {
+            "name": "Bombard Tower",
+            "uri": "bombardtower",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesUniversity": 0
+            },
+            "icon": "../resources/icons/units/bombardtower.png"
+      },
+      {
+            "name": "Balitstics",
+            "uri": "balitstics",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesUniversity": 0
+            },
+            "icon": "../resources/icons/units/balitstics.png"
+      },
+      {
+            "name": "Siege Engineers",
+            "uri": "siegeengineers",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesUniversity": 0
+            },
+            "icon": "../resources/icons/units/siegeengineers.png"
+      },
+      {
+            "name": "Guard Tower",
+            "uri": "guardtower",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesUniversity": 0
+            },
+            "icon": "../resources/icons/units/guardtower.png"
+      },
+      {
+            "name": "Keep",
+            "uri": "keep",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesUniversity": 0
+            },
+            "icon": "../resources/icons/units/keep.png"
+      },
+      {
+            "name": "Heated Shot",
+            "uri": "heatedshot",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesUniversity": 0
+            },
+            "icon": "../resources/icons/units/heatedshot.png"
+      },
+      {
+            "name": "Arrowslits",
+            "uri": "arrowslits",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesUniversity": 0
+            },
+            "icon": "../resources/icons/units/arrowslits.png"
+      },
+      {
+            "name": "Murder Holes",
+            "uri": "murderholes",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesUniversity": 0
+            },
+            "icon": "../resources/icons/units/murderholes.png"
+      },
+      {
+            "name": "Treadmil Crane",
+            "uri": "treadmilcrane",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesUniversity": 0
+            },
+            "icon": "../resources/icons/units/treadmilcrane.png"
+      },
+      {
+            "name": "Faith",
+            "uri": "faith",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesMonastery": 0
+            },
+            "icon": "../resources/icons/units/faith.png"
+      },
+      {
+            "name": "Redemption",
+            "uri": "redemption",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesMonastery": 0
+            },
+            "icon": "../resources/icons/units/redemption.png"
+      },
+      {
+            "name": "Illumination",
+            "uri": "illumination",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesMonastery": 0
+            },
+            "icon": "../resources/icons/units/illumination.png"
+      },
+      {
+            "name": "Atonement",
+            "uri": "atonement",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesMonastery": 0
+            },
+            "icon": "../resources/icons/units/atonement.png"
+      },
+      {
+            "name": "Block Printing",
+            "uri": "blockprinting",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesMonastery": 0
+            },
+            "icon": "../resources/icons/units/blockprinting.png"
+      },
+      {
+            "name": "Herbal Medicine",
+            "uri": "herbalmedicine",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesMonastery": 0
+            },
+            "icon": "../resources/icons/units/herbalmedicine.png"
+      },
+      {
+            "name": "Theocracy",
+            "uri": "theocracy",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesMonastery": 0
+            },
+            "icon": "../resources/icons/units/theocracy.png"
+      },
+      {
+            "name": "Heresy",
+            "uri": "heresy",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesMonastery": 0
+            },
+            "icon": "../resources/icons/units/heresy.png"
+      },
+      {
+            "name": "Sanctity",
+            "uri": "sanctity",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesMonastery": 0
+            },
+            "icon": "../resources/icons/units/sanctity.png"
+      },
+      {
+            "name": "Fervor",
+            "uri": "fervor",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesMonastery": 0
+            },
+            "icon": "../resources/icons/units/fervor.png"
+      },
+      {
+            "name": "Town Watch",
+            "uri": "townwatch",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesTownCenter": 0
+            },
+            "icon": "../resources/icons/units/townwatch.png"
+      },
+      {
+            "name": "Town Patrol",
+            "uri": "townpatrol",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesTownCenter": 0
+            },
+            "icon": "../resources/icons/units/townpatrol.png"
+      },
+      {
+            "name": "Feudal Age",
+            "uri": "feudalage",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesTownCenter": 0
+            },
+            "icon": "../resources/icons/units/feudalage.png"
+      },
+      {
+            "name": "Castle Age",
+            "uri": "castleage",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesTownCenter": 0
+            },
+            "icon": "../resources/icons/units/castleage.png"
+      },
+      {
+            "name": "Imperial Age",
+            "uri": "imperialage",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesTownCenter": 0
+            },
+            "icon": "../resources/icons/units/imperialage.png"
+      },
+      {
+            "name": "Loom",
+            "uri": "loom",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesTownCenter": 0
+            },
+            "icon": "../resources/icons/units/loom.png"
+      },
+      {
+            "name": "Wheelbarrow",
+            "uri": "wheelbarrow",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesTownCenter": 0
+            },
+            "icon": "../resources/icons/units/wheelbarrow.png"
+      },
+      {
+            "name": "Hand Cart",
+            "uri": "handcart",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesTownCenter": 0
+            },
+            "icon": "../resources/icons/units/handcart.png"
+      },
+      {
+            "name": "Gold Mining",
+            "uri": "goldmining",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesMiningCamp": 0
+            },
+            "icon": "../resources/icons/units/goldmining.png"
+      },
+      {
+            "name": "Gold Shaft Mining",
+            "uri": "goldshaftmining",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesMiningCamp": 0
+            },
+            "icon": "../resources/icons/units/goldshaftmining.png"
+      },
+      {
+            "name": "Stone Mining",
+            "uri": "stonemining",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesMiningCamp": 0
+            },
+            "icon": "../resources/icons/units/stonemining.png"
+      },
+      {
+            "name": "Stone Shaft Mining",
+            "uri": "stoneshaftmining",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesMiningCamp": 0
+            },
+            "icon": "../resources/icons/units/stoneshaftmining.png"
+      },
+      {
+            "name": "Double-Bit Axe",
+            "uri": "doublebitaxe",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesLumberCamp": 0
+            },
+            "icon": "../resources/icons/units/doublebitaxe.png"
+      },
+      {
+            "name": "Bow Saw",
+            "uri": "bowsaw",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesLumberCamp": 0
+            },
+            "icon": "../resources/icons/units/bowsaw.png"
+      },
+      {
+            "name": "Two-Man Saw",
+            "uri": "twomansaw",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesLumberCamp": 0
+            },
+            "icon": "../resources/icons/units/twomansaw.png"
+      },
+      {
+            "name": "Horse Collar",
+            "uri": "horsecollar",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesMill": 0
+            },
+            "icon": "../resources/icons/units/horsecollar.png"
+      },
+      {
+            "name": "Heavy Plow",
+            "uri": "heavyplow",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesMill": 0
+            },
+            "icon": "../resources/icons/units/heavyplow.png"
+      },
+      {
+            "name": "Crop Rotation",
+            "uri": "croprotation",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesMill": 0
+            },
+            "icon": "../resources/icons/units/croprotation.png"
+      },
+      {
+            "name": "Caravan",
+            "uri": "caravan",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesMarket": 0
+            },
+            "icon": "../resources/icons/units/caravan.png"
+      },
+      {
+            "name": "Guilds",
+            "uri": "guilds",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesMarket": 0
+            },
+            "icon": "../resources/icons/units/guilds.png"
+      },
+      {
+            "name": "Coinage",
+            "uri": "coinage",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesMarket": 0
+            },
+            "icon": "../resources/icons/units/coinage.png"
+      },
+      {
+            "name": "Banking",
+            "uri": "banking",
+            "age": "Placeholder Age",
+            "toggle": true,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesMarket": 0
+            },
+            "icon": "../resources/icons/units/banking.png"
+      }
 ]

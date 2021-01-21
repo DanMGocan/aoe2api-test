@@ -18,17 +18,17 @@ const statisticsIncrementor = (req, res, next) => {
 }
 
 /** Main scripter for Units, Techs and Buildings */
-const mainScripter = (data, defaults) => {
+const mainScripter = (data, defaults, time) => {
     let output = [];
     for(const [catName, objNames] of Object.entries(data)){
         for(const name of objNames){
-            let uri = name.split(" ").join("").split("-").join("").toLowerCase();
+            let uri = name.toLowerCase().replace(/[ -]/g, '');
             output.push({
                 name,
                 uri: uri,
                 ...defaults,
-                trainingTime: {[catName]: 0},
-                unitIcon: `../resources/icons/units/${name.split(" ").join("").split("-").join("").toLowerCase()}.png`,
+                [time]: {[catName]: 0},
+                icon: `../resources/icons/units/${name.toLowerCase().replace(/[ -]/g, '')}.png`,
             });
         }
     }

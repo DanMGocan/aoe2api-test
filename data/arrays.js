@@ -23,15 +23,45 @@ const units = {
 }
 
 const technologies = {
-    technologiesBarracks: [],
-    technologiesStable: [],
-    technologiesArcheryRange: [],
-    technologiesUniversity: [],
-    technologiesTownCenter: [],
+    technologiesBarracks: ["Supplies", "Arson", "Squires"],
+    technologiesStable: ["Bloodlines", "Husbandry"],
+    technologiesArcheryRange: ["Thumb Ring", "Parthian Tactics"],
+    technologiesCastle: ["uniqueCastleAge", "uniqueImperialAge", "Hoardings", "Sappers", "Conscription", "Spies/Treason"],
+    technologiesDock: ["Gillnets", "Careening", "Dry Dock", "Shipwright"],
+    technologiesSiegeWorkshop: [],
+    technologiesBlacksmith: ["Padded Archer Armour", "Leather Archer Armour", "Ring Archer Armour", "Fletching", "Bodkin Arrow", "Bracer", "Forging", "Iron Casting", "Blast Furnace",
+                            "Scale Barding Armour", "Chain Barding Armour", "Plate Barding Armour", "Scale Mail Armour", "Chain Mail Armour", "Plate Mail Armour"],
+    technologiesUniversity: ["Masonry", "Architecture", "Fortified Wall", "Chemistry", "Bombard Tower", "Balitstics", "Siege Engineers", "Guard Tower", "Keep", "Heated Shot", "Arrowslits",
+                            "Murder Holes", "Treadmil Crane"],
+    technologiesMonastery: ["Faith", "Redemption", "Illumination", "Atonement", "Block Printing", "Herbal Medicine", "Theocracy", "Heresy", "Sanctity", "Fervor"],
+    technologiesTownCenter: ["Town Watch", "Town Patrol", "Feudal Age", "Castle Age", "Imperial Age", "Loom", "Wheelbarrow", "Hand Cart"],
+    technologiesMiningCamp: ["Gold Mining", "Gold Shaft Mining", "Stone Mining", "Stone Shaft Mining"],
+    technologiesLumberCamp: ["Double-Bit Axe", "Bow Saw", "Two-Man Saw"],
+    technologiesMill: ["Horse Collar", "Heavy Plow", "Crop Rotation"],
+    technologiesMarket: ["Caravan", "Guilds", "Coinage", "Banking"]
+}
 
+const buildings = ["Barracks", "Archery Range", "Stable", "Siege Workshop", "Dock", "Castle", "Fish Trap", "Outpost", "Palisade Wall", "Palisade Gate", "Watch Tower", "Stone Wall", 
+                    "Gate", "Guard Tower", "Fortified Wall", "Keep", "Bombard Tower", "Monastery", "Blacksmith", "University", "Town Center", "Mining Camp", "Lumber Camp", "Mill", 
+                    "Farm", "Market", "House", "Wonder"];
+
+const civilizations = {
+    civilizationsTheAgeOfKings: ["Britons", "Byzantines", "Celts", "Chinese", "Franks", "Goths", "Japanese", "Mongols", "Persians", "Saracens", "Teutons", "Turks", "Vikings"],
+    civilizationsTheConquerors: ["Aztecs", "Huns", "Koreans", "Mayans", "Spanish"],
+    civilizationsTheForgotten: ["Incas", "Indians", "Italians", "Magyars", "Slavs"],
+    civilizationsTheAfricanKingdoms: ["Berbers", "Ethiopians", "Malians", "Portuguese"],
+    civilizaitionsRiseOfTheRajas: ["Burmese", "Khmer", "Malay", "Vietnamese"],
+    civilizationsDefinitiveEdition: ["Bulgarians", "Cumans", "Lithuanians", "Tatars"],
+    civilizationsLordOfTheWest: ["Burgundians", "Sicilians"]
+}
+
+const unitsProperties = {
+    
 }
 
 module.exports = {
     units,
-
+    technologies,
+    buildings,
+    civilizations
 }

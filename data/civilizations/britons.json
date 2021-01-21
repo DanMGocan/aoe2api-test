@@ -4,6 +4,7 @@
     "arhitecture": "Civ Arch", 
     "focus": ["Infantry", "Monks"],
     "wikiPage": "",
+    "expansion": "The Age of Kings",
     
     "buildings": {
         "barracks": true,

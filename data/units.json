@@ -13,6 +13,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -36,7 +37,7 @@
             "trainingTime": {
                   "unitsBarracks": 0
             },
-            "unitIcon": "../resources/icons/units/militia.png"
+            "icon": "../resources/icons/units/militia.png"
       },
       {
             "name": "Man-at-Arms",
@@ -52,6 +53,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -75,7 +77,7 @@
             "trainingTime": {
                   "unitsBarracks": 0
             },
-            "unitIcon": "../resources/icons/units/manatarms.png"
+            "icon": "../resources/icons/units/manatarms.png"
       },
       {
             "name": "Long Swordsman",
@@ -91,6 +93,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -114,7 +117,7 @@
             "trainingTime": {
                   "unitsBarracks": 0
             },
-            "unitIcon": "../resources/icons/units/longswordsman.png"
+            "icon": "../resources/icons/units/longswordsman.png"
       },
       {
             "name": "Two-Handed Swordsman",
@@ -130,6 +133,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -153,7 +157,7 @@
             "trainingTime": {
                   "unitsBarracks": 0
             },
-            "unitIcon": "../resources/icons/units/twohandedswordsman.png"
+            "icon": "../resources/icons/units/twohandedswordsman.png"
       },
       {
             "name": "Champion",
@@ -169,6 +173,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -192,7 +197,7 @@
             "trainingTime": {
                   "unitsBarracks": 0
             },
-            "unitIcon": "../resources/icons/units/champion.png"
+            "icon": "../resources/icons/units/champion.png"
       },
       {
             "name": "Spearman",
@@ -208,6 +213,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -231,7 +237,7 @@
             "trainingTime": {
                   "unitsBarracks": 0
             },
-            "unitIcon": "../resources/icons/units/spearman.png"
+            "icon": "../resources/icons/units/spearman.png"
       },
       {
             "name": "Pikeman",
@@ -247,6 +253,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -270,7 +277,7 @@
             "trainingTime": {
                   "unitsBarracks": 0
             },
-            "unitIcon": "../resources/icons/units/pikeman.png"
+            "icon": "../resources/icons/units/pikeman.png"
       },
       {
             "name": "Halberdier",
@@ -286,6 +293,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -309,7 +317,7 @@
             "trainingTime": {
                   "unitsBarracks": 0
             },
-            "unitIcon": "../resources/icons/units/halberdier.png"
+            "icon": "../resources/icons/units/halberdier.png"
       },
       {
             "name": "Eagle Scout",
@@ -325,6 +333,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -348,7 +357,7 @@
             "trainingTime": {
                   "unitsBarracks": 0
             },
-            "unitIcon": "../resources/icons/units/eaglescout.png"
+            "icon": "../resources/icons/units/eaglescout.png"
       },
       {
             "name": "Eagle Warrior",
@@ -364,6 +373,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -387,7 +397,7 @@
             "trainingTime": {
                   "unitsBarracks": 0
             },
-            "unitIcon": "../resources/icons/units/eaglewarrior.png"
+            "icon": "../resources/icons/units/eaglewarrior.png"
       },
       {
             "name": "Elite Eagle Warrior",
@@ -403,6 +413,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -426,7 +437,7 @@
             "trainingTime": {
                   "unitsBarracks": 0
             },
-            "unitIcon": "../resources/icons/units/eliteeaglewarrior.png"
+            "icon": "../resources/icons/units/eliteeaglewarrior.png"
       },
       {
             "name": "Condottiero",
@@ -442,6 +453,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -465,7 +477,7 @@
             "trainingTime": {
                   "unitsBarracks": 0
             },
-            "unitIcon": "../resources/icons/units/condottiero.png"
+            "icon": "../resources/icons/units/condottiero.png"
       },
       {
             "name": "Scout Cavalry",
@@ -481,6 +493,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -504,7 +517,7 @@
             "trainingTime": {
                   "unitsStable": 0
             },
-            "unitIcon": "../resources/icons/units/scoutcavalry.png"
+            "icon": "../resources/icons/units/scoutcavalry.png"
       },
       {
             "name": "Light Cavalry",
@@ -520,6 +533,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -543,7 +557,7 @@
             "trainingTime": {
                   "unitsStable": 0
             },
-            "unitIcon": "../resources/icons/units/lightcavalry.png"
+            "icon": "../resources/icons/units/lightcavalry.png"
       },
       {
             "name": "Hussar",
@@ -559,6 +573,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -582,7 +597,7 @@
             "trainingTime": {
                   "unitsStable": 0
             },
-            "unitIcon": "../resources/icons/units/hussar.png"
+            "icon": "../resources/icons/units/hussar.png"
       },
       {
             "name": "Knight",
@@ -598,6 +613,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -621,7 +637,7 @@
             "trainingTime": {
                   "unitsStable": 0
             },
-            "unitIcon": "../resources/icons/units/knight.png"
+            "icon": "../resources/icons/units/knight.png"
       },
       {
             "name": "Cavalier",
@@ -637,6 +653,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -660,7 +677,7 @@
             "trainingTime": {
                   "unitsStable": 0
             },
-            "unitIcon": "../resources/icons/units/cavalier.png"
+            "icon": "../resources/icons/units/cavalier.png"
       },
       {
             "name": "Paladin",
@@ -676,6 +693,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -699,7 +717,7 @@
             "trainingTime": {
                   "unitsStable": 0
             },
-            "unitIcon": "../resources/icons/units/paladin.png"
+            "icon": "../resources/icons/units/paladin.png"
       },
       {
             "name": "Camel Rider",
@@ -715,6 +733,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -738,7 +757,7 @@
             "trainingTime": {
                   "unitsStable": 0
             },
-            "unitIcon": "../resources/icons/units/camelrider.png"
+            "icon": "../resources/icons/units/camelrider.png"
       },
       {
             "name": "Heavy Camel Rider",
@@ -754,6 +773,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -777,7 +797,7 @@
             "trainingTime": {
                   "unitsStable": 0
             },
-            "unitIcon": "../resources/icons/units/heavycamelrider.png"
+            "icon": "../resources/icons/units/heavycamelrider.png"
       },
       {
             "name": "Imperial Camel Rider",
@@ -793,6 +813,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -816,7 +837,7 @@
             "trainingTime": {
                   "unitsStable": 0
             },
-            "unitIcon": "../resources/icons/units/imperialcamelrider.png"
+            "icon": "../resources/icons/units/imperialcamelrider.png"
       },
       {
             "name": "Battle Elephant",
@@ -832,6 +853,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -855,7 +877,7 @@
             "trainingTime": {
                   "unitsStable": 0
             },
-            "unitIcon": "../resources/icons/units/battleelephant.png"
+            "icon": "../resources/icons/units/battleelephant.png"
       },
       {
             "name": "Elite Battle Elephant",
@@ -871,6 +893,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -894,7 +917,7 @@
             "trainingTime": {
                   "unitsStable": 0
             },
-            "unitIcon": "../resources/icons/units/elitebattleelephant.png"
+            "icon": "../resources/icons/units/elitebattleelephant.png"
       },
       {
             "name": "Steppe Lancer",
@@ -910,6 +933,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -933,7 +957,7 @@
             "trainingTime": {
                   "unitsStable": 0
             },
-            "unitIcon": "../resources/icons/units/steppelancer.png"
+            "icon": "../resources/icons/units/steppelancer.png"
       },
       {
             "name": "Elite Steppe Lancer",
@@ -949,6 +973,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -972,7 +997,7 @@
             "trainingTime": {
                   "unitsStable": 0
             },
-            "unitIcon": "../resources/icons/units/elitesteppelancer.png"
+            "icon": "../resources/icons/units/elitesteppelancer.png"
       },
       {
             "name": "Archer",
@@ -988,6 +1013,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -1011,7 +1037,7 @@
             "trainingTime": {
                   "unitsArcheryRange": 0
             },
-            "unitIcon": "../resources/icons/units/archer.png"
+            "icon": "../resources/icons/units/archer.png"
       },
       {
             "name": "Crossbowman",
@@ -1027,6 +1053,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -1050,7 +1077,7 @@
             "trainingTime": {
                   "unitsArcheryRange": 0
             },
-            "unitIcon": "../resources/icons/units/crossbowman.png"
+            "icon": "../resources/icons/units/crossbowman.png"
       },
       {
             "name": "Arbalester",
@@ -1066,6 +1093,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -1089,7 +1117,7 @@
             "trainingTime": {
                   "unitsArcheryRange": 0
             },
-            "unitIcon": "../resources/icons/units/arbalester.png"
+            "icon": "../resources/icons/units/arbalester.png"
       },
       {
             "name": "Skirmisher",
@@ -1105,6 +1133,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -1128,7 +1157,7 @@
             "trainingTime": {
                   "unitsArcheryRange": 0
             },
-            "unitIcon": "../resources/icons/units/skirmisher.png"
+            "icon": "../resources/icons/units/skirmisher.png"
       },
       {
             "name": "Elite Skirmisher",
@@ -1144,6 +1173,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -1167,7 +1197,7 @@
             "trainingTime": {
                   "unitsArcheryRange": 0
             },
-            "unitIcon": "../resources/icons/units/eliteskirmisher.png"
+            "icon": "../resources/icons/units/eliteskirmisher.png"
       },
       {
             "name": "Imperial Skirmisher",
@@ -1183,6 +1213,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -1206,7 +1237,7 @@
             "trainingTime": {
                   "unitsArcheryRange": 0
             },
-            "unitIcon": "../resources/icons/units/imperialskirmisher.png"
+            "icon": "../resources/icons/units/imperialskirmisher.png"
       },
       {
             "name": "Cavalry Archer",
@@ -1222,6 +1253,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -1245,7 +1277,7 @@
             "trainingTime": {
                   "unitsArcheryRange": 0
             },
-            "unitIcon": "../resources/icons/units/cavalryarcher.png"
+            "icon": "../resources/icons/units/cavalryarcher.png"
       },
       {
             "name": "Heavy Cavalry Archer",
@@ -1261,6 +1293,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -1284,7 +1317,7 @@
             "trainingTime": {
                   "unitsArcheryRange": 0
             },
-            "unitIcon": "../resources/icons/units/heavycavalryarcher.png"
+            "icon": "../resources/icons/units/heavycavalryarcher.png"
       },
       {
             "name": "Slinger",
@@ -1300,6 +1333,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -1323,7 +1357,7 @@
             "trainingTime": {
                   "unitsArcheryRange": 0
             },
-            "unitIcon": "../resources/icons/units/slinger.png"
+            "icon": "../resources/icons/units/slinger.png"
       },
       {
             "name": "Genitour",
@@ -1339,6 +1373,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -1362,7 +1397,7 @@
             "trainingTime": {
                   "unitsArcheryRange": 0
             },
-            "unitIcon": "../resources/icons/units/genitour.png"
+            "icon": "../resources/icons/units/genitour.png"
       },
       {
             "name": "Elite Genitour",
@@ -1378,6 +1413,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -1401,7 +1437,7 @@
             "trainingTime": {
                   "unitsArcheryRange": 0
             },
-            "unitIcon": "../resources/icons/units/elitegenitour.png"
+            "icon": "../resources/icons/units/elitegenitour.png"
       },
       {
             "name": "Battering Ram",
@@ -1417,6 +1453,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -1440,7 +1477,7 @@
             "trainingTime": {
                   "unitsWorkshop": 0
             },
-            "unitIcon": "../resources/icons/units/batteringram.png"
+            "icon": "../resources/icons/units/batteringram.png"
       },
       {
             "name": "Capped Ram",
@@ -1456,6 +1493,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -1479,7 +1517,7 @@
             "trainingTime": {
                   "unitsWorkshop": 0
             },
-            "unitIcon": "../resources/icons/units/cappedram.png"
+            "icon": "../resources/icons/units/cappedram.png"
       },
       {
             "name": "Siege Ram",
@@ -1495,6 +1533,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -1518,7 +1557,7 @@
             "trainingTime": {
                   "unitsWorkshop": 0
             },
-            "unitIcon": "../resources/icons/units/siegeram.png"
+            "icon": "../resources/icons/units/siegeram.png"
       },
       {
             "name": "Mangonel",
@@ -1534,6 +1573,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -1557,7 +1597,7 @@
             "trainingTime": {
                   "unitsWorkshop": 0
             },
-            "unitIcon": "../resources/icons/units/mangonel.png"
+            "icon": "../resources/icons/units/mangonel.png"
       },
       {
             "name": "Onager",
@@ -1573,6 +1613,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -1596,7 +1637,7 @@
             "trainingTime": {
                   "unitsWorkshop": 0
             },
-            "unitIcon": "../resources/icons/units/onager.png"
+            "icon": "../resources/icons/units/onager.png"
       },
       {
             "name": "Siege Onager",
@@ -1612,6 +1653,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -1635,7 +1677,7 @@
             "trainingTime": {
                   "unitsWorkshop": 0
             },
-            "unitIcon": "../resources/icons/units/siegeonager.png"
+            "icon": "../resources/icons/units/siegeonager.png"
       },
       {
             "name": "Scorpion",
@@ -1651,6 +1693,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -1674,7 +1717,7 @@
             "trainingTime": {
                   "unitsWorkshop": 0
             },
-            "unitIcon": "../resources/icons/units/scorpion.png"
+            "icon": "../resources/icons/units/scorpion.png"
       },
       {
             "name": "Heavy Scorpion",
@@ -1690,6 +1733,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -1713,7 +1757,7 @@
             "trainingTime": {
                   "unitsWorkshop": 0
             },
-            "unitIcon": "../resources/icons/units/heavyscorpion.png"
+            "icon": "../resources/icons/units/heavyscorpion.png"
       },
       {
             "name": "Bombard Cannon",
@@ -1729,6 +1773,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -1752,7 +1797,7 @@
             "trainingTime": {
                   "unitsWorkshop": 0
             },
-            "unitIcon": "../resources/icons/units/bombardcannon.png"
+            "icon": "../resources/icons/units/bombardcannon.png"
       },
       {
             "name": "Siege Tower",
@@ -1768,6 +1813,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -1791,7 +1837,7 @@
             "trainingTime": {
                   "unitsWorkshop": 0
             },
-            "unitIcon": "../resources/icons/units/siegetower.png"
+            "icon": "../resources/icons/units/siegetower.png"
       },
       {
             "name": "Petard",
@@ -1807,6 +1853,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -1830,7 +1877,7 @@
             "trainingTime": {
                   "unitsCastle": 0
             },
-            "unitIcon": "../resources/icons/units/petard.png"
+            "icon": "../resources/icons/units/petard.png"
       },
       {
             "name": "Trebuchet",
@@ -1846,6 +1893,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -1869,7 +1917,7 @@
             "trainingTime": {
                   "unitsCastle": 0
             },
-            "unitIcon": "../resources/icons/units/trebuchet.png"
+            "icon": "../resources/icons/units/trebuchet.png"
       },
       {
             "name": "Longbowman",
@@ -1885,6 +1933,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -1908,7 +1957,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/longbowman.png"
+            "icon": "../resources/icons/units/longbowman.png"
       },
       {
             "name": "Elite Longbowman",
@@ -1924,6 +1973,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -1947,7 +1997,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/elitelongbowman.png"
+            "icon": "../resources/icons/units/elitelongbowman.png"
       },
       {
             "name": "Cataphract",
@@ -1963,6 +2013,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -1986,7 +2037,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/cataphract.png"
+            "icon": "../resources/icons/units/cataphract.png"
       },
       {
             "name": "Elite Cataphract",
@@ -2002,6 +2053,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -2025,7 +2077,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/elitecataphract.png"
+            "icon": "../resources/icons/units/elitecataphract.png"
       },
       {
             "name": "Woad Raider",
@@ -2041,6 +2093,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -2064,7 +2117,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/woadraider.png"
+            "icon": "../resources/icons/units/woadraider.png"
       },
       {
             "name": "Elite Woad Raider",
@@ -2080,6 +2133,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -2103,7 +2157,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/elitewoadraider.png"
+            "icon": "../resources/icons/units/elitewoadraider.png"
       },
       {
             "name": "Chu Ko Nu",
@@ -2119,6 +2173,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -2142,7 +2197,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/chukonu.png"
+            "icon": "../resources/icons/units/chukonu.png"
       },
       {
             "name": "Elite Chu Ko Nu",
@@ -2158,6 +2213,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -2181,7 +2237,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/elitechukonu.png"
+            "icon": "../resources/icons/units/elitechukonu.png"
       },
       {
             "name": "Throwing Axeman",
@@ -2197,6 +2253,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -2220,7 +2277,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/throwingaxeman.png"
+            "icon": "../resources/icons/units/throwingaxeman.png"
       },
       {
             "name": "Elite Throwing Axeman",
@@ -2236,6 +2293,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -2259,7 +2317,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/elitethrowingaxeman.png"
+            "icon": "../resources/icons/units/elitethrowingaxeman.png"
       },
       {
             "name": "Huskarl",
@@ -2275,6 +2333,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -2298,7 +2357,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/huskarl.png"
+            "icon": "../resources/icons/units/huskarl.png"
       },
       {
             "name": "Elite Huskarl",
@@ -2314,6 +2373,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -2337,7 +2397,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/elitehuskarl.png"
+            "icon": "../resources/icons/units/elitehuskarl.png"
       },
       {
             "name": "Samurai",
@@ -2353,6 +2413,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -2376,7 +2437,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/samurai.png"
+            "icon": "../resources/icons/units/samurai.png"
       },
       {
             "name": "Elite Samurai",
@@ -2392,6 +2453,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -2415,7 +2477,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/elitesamurai.png"
+            "icon": "../resources/icons/units/elitesamurai.png"
       },
       {
             "name": "Mangudai",
@@ -2431,6 +2493,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -2454,7 +2517,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/mangudai.png"
+            "icon": "../resources/icons/units/mangudai.png"
       },
       {
             "name": "Elite Mangudai",
@@ -2470,6 +2533,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -2493,7 +2557,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/elitemangudai.png"
+            "icon": "../resources/icons/units/elitemangudai.png"
       },
       {
             "name": "War Elephan",
@@ -2509,6 +2573,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -2532,7 +2597,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/warelephan.png"
+            "icon": "../resources/icons/units/warelephan.png"
       },
       {
             "name": "Elite War Elephant",
@@ -2548,6 +2613,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -2571,7 +2637,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/elitewarelephant.png"
+            "icon": "../resources/icons/units/elitewarelephant.png"
       },
       {
             "name": "Mameluke",
@@ -2587,6 +2653,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -2610,7 +2677,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/mameluke.png"
+            "icon": "../resources/icons/units/mameluke.png"
       },
       {
             "name": "Elite Mameluke",
@@ -2626,6 +2693,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -2649,7 +2717,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/elitemameluke.png"
+            "icon": "../resources/icons/units/elitemameluke.png"
       },
       {
             "name": "Teutonic Knight",
@@ -2665,6 +2733,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -2688,7 +2757,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/teutonicknight.png"
+            "icon": "../resources/icons/units/teutonicknight.png"
       },
       {
             "name": "Elite Teutonic Knight",
@@ -2704,6 +2773,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -2727,7 +2797,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/eliteteutonicknight.png"
+            "icon": "../resources/icons/units/eliteteutonicknight.png"
       },
       {
             "name": "Janissary",
@@ -2743,6 +2813,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -2766,7 +2837,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/janissary.png"
+            "icon": "../resources/icons/units/janissary.png"
       },
       {
             "name": "Elite Janissary",
@@ -2782,6 +2853,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -2805,7 +2877,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/elitejanissary.png"
+            "icon": "../resources/icons/units/elitejanissary.png"
       },
       {
             "name": "Berserk",
@@ -2821,6 +2893,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -2844,7 +2917,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/berserk.png"
+            "icon": "../resources/icons/units/berserk.png"
       },
       {
             "name": "Elite Berserk",
@@ -2860,6 +2933,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -2883,7 +2957,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/eliteberserk.png"
+            "icon": "../resources/icons/units/eliteberserk.png"
       },
       {
             "name": "Jaguar Warrior",
@@ -2899,6 +2973,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -2922,7 +2997,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/jaguarwarrior.png"
+            "icon": "../resources/icons/units/jaguarwarrior.png"
       },
       {
             "name": "Elite Jaguar Warrior",
@@ -2938,6 +3013,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -2961,7 +3037,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/elitejaguarwarrior.png"
+            "icon": "../resources/icons/units/elitejaguarwarrior.png"
       },
       {
             "name": "Tarkan",
@@ -2977,6 +3053,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -3000,7 +3077,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/tarkan.png"
+            "icon": "../resources/icons/units/tarkan.png"
       },
       {
             "name": "Elite Tarkan",
@@ -3016,6 +3093,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -3039,7 +3117,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/elitetarkan.png"
+            "icon": "../resources/icons/units/elitetarkan.png"
       },
       {
             "name": "War Wagon",
@@ -3055,6 +3133,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -3078,7 +3157,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/warwagon.png"
+            "icon": "../resources/icons/units/warwagon.png"
       },
       {
             "name": "Elite War Wagon",
@@ -3094,6 +3173,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -3117,7 +3197,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/elitewarwagon.png"
+            "icon": "../resources/icons/units/elitewarwagon.png"
       },
       {
             "name": "Plumed Archer",
@@ -3133,6 +3213,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -3156,7 +3237,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/plumedarcher.png"
+            "icon": "../resources/icons/units/plumedarcher.png"
       },
       {
             "name": "Elite Plumed Archer",
@@ -3172,6 +3253,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -3195,7 +3277,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/eliteplumedarcher.png"
+            "icon": "../resources/icons/units/eliteplumedarcher.png"
       },
       {
             "name": "Conquistador",
@@ -3211,6 +3293,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -3234,7 +3317,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/conquistador.png"
+            "icon": "../resources/icons/units/conquistador.png"
       },
       {
             "name": "Elite Conquistador",
@@ -3250,6 +3333,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -3273,7 +3357,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/eliteconquistador.png"
+            "icon": "../resources/icons/units/eliteconquistador.png"
       },
       {
             "name": "Kamayuk",
@@ -3289,6 +3373,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -3312,7 +3397,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/kamayuk.png"
+            "icon": "../resources/icons/units/kamayuk.png"
       },
       {
             "name": "Elite Kamayuk",
@@ -3328,6 +3413,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -3351,7 +3437,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/elitekamayuk.png"
+            "icon": "../resources/icons/units/elitekamayuk.png"
       },
       {
             "name": "Elephant Archer",
@@ -3367,6 +3453,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -3390,7 +3477,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/elephantarcher.png"
+            "icon": "../resources/icons/units/elephantarcher.png"
       },
       {
             "name": "Elite Elephant Archer",
@@ -3406,6 +3493,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -3429,7 +3517,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/eliteelephantarcher.png"
+            "icon": "../resources/icons/units/eliteelephantarcher.png"
       },
       {
             "name": "Genoese Crossbowman",
@@ -3445,6 +3533,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -3468,7 +3557,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/genoesecrossbowman.png"
+            "icon": "../resources/icons/units/genoesecrossbowman.png"
       },
       {
             "name": "Elite Genoese Crossbowman",
@@ -3484,6 +3573,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -3507,7 +3597,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/elitegenoesecrossbowman.png"
+            "icon": "../resources/icons/units/elitegenoesecrossbowman.png"
       },
       {
             "name": "Magyar Huszar",
@@ -3523,6 +3613,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -3546,7 +3637,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/magyarhuszar.png"
+            "icon": "../resources/icons/units/magyarhuszar.png"
       },
       {
             "name": "Elite Magyar Huszar",
@@ -3562,6 +3653,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -3585,7 +3677,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/elitemagyarhuszar.png"
+            "icon": "../resources/icons/units/elitemagyarhuszar.png"
       },
       {
             "name": "Boyar",
@@ -3601,6 +3693,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -3624,7 +3717,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/boyar.png"
+            "icon": "../resources/icons/units/boyar.png"
       },
       {
             "name": "Elite Boyar",
@@ -3640,6 +3733,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -3663,7 +3757,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/eliteboyar.png"
+            "icon": "../resources/icons/units/eliteboyar.png"
       },
       {
             "name": "Camer Archer",
@@ -3679,6 +3773,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -3702,7 +3797,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/camerarcher.png"
+            "icon": "../resources/icons/units/camerarcher.png"
       },
       {
             "name": "Elite Camel Archer",
@@ -3718,6 +3813,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -3741,7 +3837,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/elitecamelarcher.png"
+            "icon": "../resources/icons/units/elitecamelarcher.png"
       },
       {
             "name": "Shotel Warrior",
@@ -3757,6 +3853,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -3780,7 +3877,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/shotelwarrior.png"
+            "icon": "../resources/icons/units/shotelwarrior.png"
       },
       {
             "name": "Elite Shotel Warrior",
@@ -3796,6 +3893,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -3819,7 +3917,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/eliteshotelwarrior.png"
+            "icon": "../resources/icons/units/eliteshotelwarrior.png"
       },
       {
             "name": "Gbeto",
@@ -3835,6 +3933,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -3858,7 +3957,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/gbeto.png"
+            "icon": "../resources/icons/units/gbeto.png"
       },
       {
             "name": "Elite Gbeto",
@@ -3874,6 +3973,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -3897,7 +3997,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/elitegbeto.png"
+            "icon": "../resources/icons/units/elitegbeto.png"
       },
       {
             "name": "Organ Gun",
@@ -3913,6 +4013,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -3936,7 +4037,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/organgun.png"
+            "icon": "../resources/icons/units/organgun.png"
       },
       {
             "name": "Elite Organ Gun",
@@ -3952,6 +4053,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -3975,7 +4077,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/eliteorgangun.png"
+            "icon": "../resources/icons/units/eliteorgangun.png"
       },
       {
             "name": "Arambai",
@@ -3991,6 +4093,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -4014,7 +4117,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/arambai.png"
+            "icon": "../resources/icons/units/arambai.png"
       },
       {
             "name": "Elite Arambai",
@@ -4030,6 +4133,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -4053,7 +4157,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/elitearambai.png"
+            "icon": "../resources/icons/units/elitearambai.png"
       },
       {
             "name": "Ballista Elephant",
@@ -4069,6 +4173,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -4092,7 +4197,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/ballistaelephant.png"
+            "icon": "../resources/icons/units/ballistaelephant.png"
       },
       {
             "name": "Elite Ballista Elephant",
@@ -4108,6 +4213,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -4131,7 +4237,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/eliteballistaelephant.png"
+            "icon": "../resources/icons/units/eliteballistaelephant.png"
       },
       {
             "name": "Karambit Warrior",
@@ -4147,6 +4253,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -4170,7 +4277,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/karambitwarrior.png"
+            "icon": "../resources/icons/units/karambitwarrior.png"
       },
       {
             "name": "Elite Karambit Warrior",
@@ -4186,6 +4293,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -4209,7 +4317,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/elitekarambitwarrior.png"
+            "icon": "../resources/icons/units/elitekarambitwarrior.png"
       },
       {
             "name": "Rattan Archer",
@@ -4225,6 +4333,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -4248,7 +4357,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/rattanarcher.png"
+            "icon": "../resources/icons/units/rattanarcher.png"
       },
       {
             "name": "Elite Rattan Archer",
@@ -4264,6 +4373,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -4287,7 +4397,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/eliterattanarcher.png"
+            "icon": "../resources/icons/units/eliterattanarcher.png"
       },
       {
             "name": "Konnik",
@@ -4303,6 +4413,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -4326,7 +4437,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/konnik.png"
+            "icon": "../resources/icons/units/konnik.png"
       },
       {
             "name": "Elite Konnik",
@@ -4342,6 +4453,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -4365,7 +4477,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/elitekonnik.png"
+            "icon": "../resources/icons/units/elitekonnik.png"
       },
       {
             "name": "Kipchak",
@@ -4381,6 +4493,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -4404,7 +4517,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/kipchak.png"
+            "icon": "../resources/icons/units/kipchak.png"
       },
       {
             "name": "Elite Kipchak",
@@ -4420,6 +4533,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -4443,7 +4557,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/elitekipchak.png"
+            "icon": "../resources/icons/units/elitekipchak.png"
       },
       {
             "name": "Leitis",
@@ -4459,6 +4573,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -4482,7 +4597,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/leitis.png"
+            "icon": "../resources/icons/units/leitis.png"
       },
       {
             "name": "Elite Leitis",
@@ -4498,6 +4613,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -4521,7 +4637,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/eliteleitis.png"
+            "icon": "../resources/icons/units/eliteleitis.png"
       },
       {
             "name": "Keshik",
@@ -4537,6 +4653,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -4560,7 +4677,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/keshik.png"
+            "icon": "../resources/icons/units/keshik.png"
       },
       {
             "name": "Elite Keshik",
@@ -4576,6 +4693,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -4599,7 +4717,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/elitekeshik.png"
+            "icon": "../resources/icons/units/elitekeshik.png"
       },
       {
             "name": "Coustillier",
@@ -4615,6 +4733,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -4638,7 +4757,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/coustillier.png"
+            "icon": "../resources/icons/units/coustillier.png"
       },
       {
             "name": "Serjeant",
@@ -4654,6 +4773,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -4677,7 +4797,7 @@
             "trainingTime": {
                   "unitsUnique": 0
             },
-            "unitIcon": "../resources/icons/units/serjeant.png"
+            "icon": "../resources/icons/units/serjeant.png"
       },
       {
             "name": "Villager",
@@ -4693,6 +4813,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -4716,7 +4837,7 @@
             "trainingTime": {
                   "unitsTownCenter": 0
             },
-            "unitIcon": "../resources/icons/units/villager.png"
+            "icon": "../resources/icons/units/villager.png"
       },
       {
             "name": "Trade Cart",
@@ -4732,6 +4853,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -4755,7 +4877,7 @@
             "trainingTime": {
                   "unitsMarket": 0
             },
-            "unitIcon": "../resources/icons/units/tradecart.png"
+            "icon": "../resources/icons/units/tradecart.png"
       },
       {
             "name": "Monk",
@@ -4771,6 +4893,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -4794,7 +4917,7 @@
             "trainingTime": {
                   "unitsMonastery": 0
             },
-            "unitIcon": "../resources/icons/units/monk.png"
+            "icon": "../resources/icons/units/monk.png"
       },
       {
             "name": "Missionary",
@@ -4810,6 +4933,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -4833,7 +4957,7 @@
             "trainingTime": {
                   "unitsMonastery": 0
             },
-            "unitIcon": "../resources/icons/units/missionary.png"
+            "icon": "../resources/icons/units/missionary.png"
       },
       {
             "name": "Fishing Ship",
@@ -4849,6 +4973,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -4872,7 +4997,7 @@
             "trainingTime": {
                   "unitsDock": 0
             },
-            "unitIcon": "../resources/icons/units/fishingship.png"
+            "icon": "../resources/icons/units/fishingship.png"
       },
       {
             "name": "Galley",
@@ -4888,6 +5013,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -4911,7 +5037,7 @@
             "trainingTime": {
                   "unitsDock": 0
             },
-            "unitIcon": "../resources/icons/units/galley.png"
+            "icon": "../resources/icons/units/galley.png"
       },
       {
             "name": "Galleon",
@@ -4927,6 +5053,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -4950,7 +5077,7 @@
             "trainingTime": {
                   "unitsDock": 0
             },
-            "unitIcon": "../resources/icons/units/galleon.png"
+            "icon": "../resources/icons/units/galleon.png"
       },
       {
             "name": "War Galley",
@@ -4966,6 +5093,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -4989,7 +5117,7 @@
             "trainingTime": {
                   "unitsDock": 0
             },
-            "unitIcon": "../resources/icons/units/wargalley.png"
+            "icon": "../resources/icons/units/wargalley.png"
       },
       {
             "name": "Placeholder",
@@ -5005,6 +5133,7 @@
             "hitPoints": 0,
             "attackType": "placeholder",
             "attack": 0,
+            "range": 0,
             "attackBonus": {
                   "Unit1": 0,
                   "Unit2": 0,
@@ -5028,6 +5157,6 @@
             "trainingTime": {
                   "unitsPlaceholder": 0
             },
-            "unitIcon": "../resources/icons/units/placeholder.png"
+            "icon": "../resources/icons/units/placeholder.png"
       }
 ]

@@ -12,6 +12,9 @@ and if they return as TRUE, process all the data and return the object
 * create a tester script, which pings all routes and writes the
 result in a log
 
+
+* add expansion key / value to the civilizations 
+* add URI values for all entries
 Sources of information: 
 
 
