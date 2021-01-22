@@ -1,0 +1,814 @@
+[
+      {
+            "name": "Barracks",
+            "uri": "barracks",
+            "age": "Placeholder",
+            "cost": {
+                  "stone": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "canAttack": false,
+            "attack": 0,
+            "range": 0,
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "lineOfSight": 0,
+            "unique": false,
+            "constructionTime": {
+                  "allBuildings": 0
+            },
+            "icon": "../resources/icons/units/barracks.png"
+      },
+      {
+            "name": "Archery Range",
+            "uri": "archeryrange",
+            "age": "Placeholder",
+            "cost": {
+                  "stone": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "canAttack": false,
+            "attack": 0,
+            "range": 0,
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "lineOfSight": 0,
+            "unique": false,
+            "constructionTime": {
+                  "allBuildings": 0
+            },
+            "icon": "../resources/icons/units/archeryrange.png"
+      },
+      {
+            "name": "Stable",
+            "uri": "stable",
+            "age": "Placeholder",
+            "cost": {
+                  "stone": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "canAttack": false,
+            "attack": 0,
+            "range": 0,
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "lineOfSight": 0,
+            "unique": false,
+            "constructionTime": {
+                  "allBuildings": 0
+            },
+            "icon": "../resources/icons/units/stable.png"
+      },
+      {
+            "name": "Siege Workshop",
+            "uri": "siegeworkshop",
+            "age": "Placeholder",
+            "cost": {
+                  "stone": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "canAttack": false,
+            "attack": 0,
+            "range": 0,
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "lineOfSight": 0,
+            "unique": false,
+            "constructionTime": {
+                  "allBuildings": 0
+            },
+            "icon": "../resources/icons/units/siegeworkshop.png"
+      },
+      {
+            "name": "Dock",
+            "uri": "dock",
+            "age": "Placeholder",
+            "cost": {
+                  "stone": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "canAttack": false,
+            "attack": 0,
+            "range": 0,
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "lineOfSight": 0,
+            "unique": false,
+            "constructionTime": {
+                  "allBuildings": 0
+            },
+            "icon": "../resources/icons/units/dock.png"
+      },
+      {
+            "name": "Castle",
+            "uri": "castle",
+            "age": "Placeholder",
+            "cost": {
+                  "stone": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "canAttack": false,
+            "attack": 0,
+            "range": 0,
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "lineOfSight": 0,
+            "unique": false,
+            "constructionTime": {
+                  "allBuildings": 0
+            },
+            "icon": "../resources/icons/units/castle.png"
+      },
+      {
+            "name": "Fish Trap",
+            "uri": "fishtrap",
+            "age": "Placeholder",
+            "cost": {
+                  "stone": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "canAttack": false,
+            "attack": 0,
+            "range": 0,
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "lineOfSight": 0,
+            "unique": false,
+            "constructionTime": {
+                  "allBuildings": 0
+            },
+            "icon": "../resources/icons/units/fishtrap.png"
+      },
+      {
+            "name": "Outpost",
+            "uri": "outpost",
+            "age": "Placeholder",
+            "cost": {
+                  "stone": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "canAttack": false,
+            "attack": 0,
+            "range": 0,
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "lineOfSight": 0,
+            "unique": false,
+            "constructionTime": {
+                  "allBuildings": 0
+            },
+            "icon": "../resources/icons/units/outpost.png"
+      },
+      {
+            "name": "Palisade Wall",
+            "uri": "palisadewall",
+            "age": "Placeholder",
+            "cost": {
+                  "stone": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "canAttack": false,
+            "attack": 0,
+            "range": 0,
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "lineOfSight": 0,
+            "unique": false,
+            "constructionTime": {
+                  "allBuildings": 0
+            },
+            "icon": "../resources/icons/units/palisadewall.png"
+      },
+      {
+            "name": "Palisade Gate",
+            "uri": "palisadegate",
+            "age": "Placeholder",
+            "cost": {
+                  "stone": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "canAttack": false,
+            "attack": 0,
+            "range": 0,
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "lineOfSight": 0,
+            "unique": false,
+            "constructionTime": {
+                  "allBuildings": 0
+            },
+            "icon": "../resources/icons/units/palisadegate.png"
+      },
+      {
+            "name": "Watch Tower",
+            "uri": "watchtower",
+            "age": "Placeholder",
+            "cost": {
+                  "stone": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "canAttack": false,
+            "attack": 0,
+            "range": 0,
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "lineOfSight": 0,
+            "unique": false,
+            "constructionTime": {
+                  "allBuildings": 0
+            },
+            "icon": "../resources/icons/units/watchtower.png"
+      },
+      {
+            "name": "Stone Wall",
+            "uri": "stonewall",
+            "age": "Placeholder",
+            "cost": {
+                  "stone": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "canAttack": false,
+            "attack": 0,
+            "range": 0,
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "lineOfSight": 0,
+            "unique": false,
+            "constructionTime": {
+                  "allBuildings": 0
+            },
+            "icon": "../resources/icons/units/stonewall.png"
+      },
+      {
+            "name": "Gate",
+            "uri": "gate",
+            "age": "Placeholder",
+            "cost": {
+                  "stone": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "canAttack": false,
+            "attack": 0,
+            "range": 0,
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "lineOfSight": 0,
+            "unique": false,
+            "constructionTime": {
+                  "allBuildings": 0
+            },
+            "icon": "../resources/icons/units/gate.png"
+      },
+      {
+            "name": "Guard Tower",
+            "uri": "guardtower",
+            "age": "Placeholder",
+            "cost": {
+                  "stone": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "canAttack": false,
+            "attack": 0,
+            "range": 0,
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "lineOfSight": 0,
+            "unique": false,
+            "constructionTime": {
+                  "allBuildings": 0
+            },
+            "icon": "../resources/icons/units/guardtower.png"
+      },
+      {
+            "name": "Fortified Wall",
+            "uri": "fortifiedwall",
+            "age": "Placeholder",
+            "cost": {
+                  "stone": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "canAttack": false,
+            "attack": 0,
+            "range": 0,
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "lineOfSight": 0,
+            "unique": false,
+            "constructionTime": {
+                  "allBuildings": 0
+            },
+            "icon": "../resources/icons/units/fortifiedwall.png"
+      },
+      {
+            "name": "Keep",
+            "uri": "keep",
+            "age": "Placeholder",
+            "cost": {
+                  "stone": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "canAttack": false,
+            "attack": 0,
+            "range": 0,
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "lineOfSight": 0,
+            "unique": false,
+            "constructionTime": {
+                  "allBuildings": 0
+            },
+            "icon": "../resources/icons/units/keep.png"
+      },
+      {
+            "name": "Bombard Tower",
+            "uri": "bombardtower",
+            "age": "Placeholder",
+            "cost": {
+                  "stone": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "canAttack": false,
+            "attack": 0,
+            "range": 0,
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "lineOfSight": 0,
+            "unique": false,
+            "constructionTime": {
+                  "allBuildings": 0
+            },
+            "icon": "../resources/icons/units/bombardtower.png"
+      },
+      {
+            "name": "Monastery",
+            "uri": "monastery",
+            "age": "Placeholder",
+            "cost": {
+                  "stone": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "canAttack": false,
+            "attack": 0,
+            "range": 0,
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "lineOfSight": 0,
+            "unique": false,
+            "constructionTime": {
+                  "allBuildings": 0
+            },
+            "icon": "../resources/icons/units/monastery.png"
+      },
+      {
+            "name": "Blacksmith",
+            "uri": "blacksmith",
+            "age": "Placeholder",
+            "cost": {
+                  "stone": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "canAttack": false,
+            "attack": 0,
+            "range": 0,
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "lineOfSight": 0,
+            "unique": false,
+            "constructionTime": {
+                  "allBuildings": 0
+            },
+            "icon": "../resources/icons/units/blacksmith.png"
+      },
+      {
+            "name": "University",
+            "uri": "university",
+            "age": "Placeholder",
+            "cost": {
+                  "stone": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "canAttack": false,
+            "attack": 0,
+            "range": 0,
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "lineOfSight": 0,
+            "unique": false,
+            "constructionTime": {
+                  "allBuildings": 0
+            },
+            "icon": "../resources/icons/units/university.png"
+      },
+      {
+            "name": "Town Center",
+            "uri": "towncenter",
+            "age": "Placeholder",
+            "cost": {
+                  "stone": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "canAttack": false,
+            "attack": 0,
+            "range": 0,
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "lineOfSight": 0,
+            "unique": false,
+            "constructionTime": {
+                  "allBuildings": 0
+            },
+            "icon": "../resources/icons/units/towncenter.png"
+      },
+      {
+            "name": "Mining Camp",
+            "uri": "miningcamp",
+            "age": "Placeholder",
+            "cost": {
+                  "stone": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "canAttack": false,
+            "attack": 0,
+            "range": 0,
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "lineOfSight": 0,
+            "unique": false,
+            "constructionTime": {
+                  "allBuildings": 0
+            },
+            "icon": "../resources/icons/units/miningcamp.png"
+      },
+      {
+            "name": "Lumber Camp",
+            "uri": "lumbercamp",
+            "age": "Placeholder",
+            "cost": {
+                  "stone": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "canAttack": false,
+            "attack": 0,
+            "range": 0,
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "lineOfSight": 0,
+            "unique": false,
+            "constructionTime": {
+                  "allBuildings": 0
+            },
+            "icon": "../resources/icons/units/lumbercamp.png"
+      },
+      {
+            "name": "Mill",
+            "uri": "mill",
+            "age": "Placeholder",
+            "cost": {
+                  "stone": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "canAttack": false,
+            "attack": 0,
+            "range": 0,
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "lineOfSight": 0,
+            "unique": false,
+            "constructionTime": {
+                  "allBuildings": 0
+            },
+            "icon": "../resources/icons/units/mill.png"
+      },
+      {
+            "name": "Farm",
+            "uri": "farm",
+            "age": "Placeholder",
+            "cost": {
+                  "stone": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "canAttack": false,
+            "attack": 0,
+            "range": 0,
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "lineOfSight": 0,
+            "unique": false,
+            "constructionTime": {
+                  "allBuildings": 0
+            },
+            "icon": "../resources/icons/units/farm.png"
+      },
+      {
+            "name": "Market",
+            "uri": "market",
+            "age": "Placeholder",
+            "cost": {
+                  "stone": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "canAttack": false,
+            "attack": 0,
+            "range": 0,
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "lineOfSight": 0,
+            "unique": false,
+            "constructionTime": {
+                  "allBuildings": 0
+            },
+            "icon": "../resources/icons/units/market.png"
+      },
+      {
+            "name": "House",
+            "uri": "house",
+            "age": "Placeholder",
+            "cost": {
+                  "stone": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "canAttack": false,
+            "attack": 0,
+            "range": 0,
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "lineOfSight": 0,
+            "unique": false,
+            "constructionTime": {
+                  "allBuildings": 0
+            },
+            "icon": "../resources/icons/units/house.png"
+      },
+      {
+            "name": "Wonder",
+            "uri": "wonder",
+            "age": "Placeholder",
+            "cost": {
+                  "stone": 0,
+                  "gold": 0,
+                  "wood": 0
+            },
+            "hitPoints": 0,
+            "canAttack": false,
+            "attack": 0,
+            "range": 0,
+            "attackDelay": 0,
+            "rateOfFire": 0,
+            "meleeArmour": 0,
+            "pierceArmour": 0,
+            "armourClass": [
+                  "Type1",
+                  "Type2",
+                  "Type3"
+            ],
+            "lineOfSight": 0,
+            "unique": false,
+            "constructionTime": {
+                  "allBuildings": 0
+            },
+            "icon": "../resources/icons/units/wonder.png"
+      }
+]

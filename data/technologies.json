@@ -3,7 +3,7 @@
             "name": "Supplies",
             "uri": "supplies",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -33,7 +33,7 @@
             "name": "Arson",
             "uri": "arson",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -63,7 +63,7 @@
             "name": "Squires",
             "uri": "squires",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -93,7 +93,7 @@
             "name": "Bloodlines",
             "uri": "bloodlines",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -123,7 +123,7 @@
             "name": "Husbandry",
             "uri": "husbandry",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -153,7 +153,7 @@
             "name": "Thumb Ring",
             "uri": "thumbring",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -183,7 +183,7 @@
             "name": "Parthian Tactics",
             "uri": "parthiantactics",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -213,7 +213,7 @@
             "name": "uniqueCastleAge",
             "uri": "uniquecastleage",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -243,7 +243,7 @@
             "name": "uniqueImperialAge",
             "uri": "uniqueimperialage",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -273,7 +273,7 @@
             "name": "Hoardings",
             "uri": "hoardings",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -303,7 +303,7 @@
             "name": "Sappers",
             "uri": "sappers",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -333,7 +333,7 @@
             "name": "Conscription",
             "uri": "conscription",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -363,7 +363,7 @@
             "name": "Spies/Treason",
             "uri": "spies/treason",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -393,7 +393,7 @@
             "name": "Gillnets",
             "uri": "gillnets",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -423,7 +423,7 @@
             "name": "Careening",
             "uri": "careening",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -453,7 +453,7 @@
             "name": "Dry Dock",
             "uri": "drydock",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -483,7 +483,7 @@
             "name": "Shipwright",
             "uri": "shipwright",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -513,7 +513,7 @@
             "name": "Padded Archer Armour",
             "uri": "paddedarcherarmour",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -543,7 +543,7 @@
             "name": "Leather Archer Armour",
             "uri": "leatherarcherarmour",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -573,7 +573,7 @@
             "name": "Ring Archer Armour",
             "uri": "ringarcherarmour",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -603,7 +603,7 @@
             "name": "Fletching",
             "uri": "fletching",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -633,7 +633,7 @@
             "name": "Bodkin Arrow",
             "uri": "bodkinarrow",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -663,7 +663,7 @@
             "name": "Bracer",
             "uri": "bracer",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -693,7 +693,7 @@
             "name": "Forging",
             "uri": "forging",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -723,7 +723,7 @@
             "name": "Iron Casting",
             "uri": "ironcasting",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -753,7 +753,7 @@
             "name": "Blast Furnace",
             "uri": "blastfurnace",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -783,7 +783,7 @@
             "name": "Scale Barding Armour",
             "uri": "scalebardingarmour",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -813,7 +813,7 @@
             "name": "Chain Barding Armour",
             "uri": "chainbardingarmour",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -843,7 +843,7 @@
             "name": "Plate Barding Armour",
             "uri": "platebardingarmour",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -873,7 +873,7 @@
             "name": "Scale Mail Armour",
             "uri": "scalemailarmour",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -903,7 +903,7 @@
             "name": "Chain Mail Armour",
             "uri": "chainmailarmour",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -933,7 +933,7 @@
             "name": "Plate Mail Armour",
             "uri": "platemailarmour",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -963,7 +963,7 @@
             "name": "Masonry",
             "uri": "masonry",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -993,7 +993,7 @@
             "name": "Architecture",
             "uri": "architecture",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -1023,7 +1023,7 @@
             "name": "Fortified Wall",
             "uri": "fortifiedwall",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -1053,7 +1053,7 @@
             "name": "Chemistry",
             "uri": "chemistry",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -1083,7 +1083,7 @@
             "name": "Bombard Tower",
             "uri": "bombardtower",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -1113,7 +1113,7 @@
             "name": "Balitstics",
             "uri": "balitstics",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -1143,7 +1143,7 @@
             "name": "Siege Engineers",
             "uri": "siegeengineers",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -1173,7 +1173,7 @@
             "name": "Guard Tower",
             "uri": "guardtower",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -1203,7 +1203,7 @@
             "name": "Keep",
             "uri": "keep",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -1233,7 +1233,7 @@
             "name": "Heated Shot",
             "uri": "heatedshot",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -1263,7 +1263,7 @@
             "name": "Arrowslits",
             "uri": "arrowslits",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -1293,7 +1293,7 @@
             "name": "Murder Holes",
             "uri": "murderholes",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -1323,7 +1323,7 @@
             "name": "Treadmil Crane",
             "uri": "treadmilcrane",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -1353,7 +1353,7 @@
             "name": "Faith",
             "uri": "faith",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -1383,7 +1383,7 @@
             "name": "Redemption",
             "uri": "redemption",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -1413,7 +1413,7 @@
             "name": "Illumination",
             "uri": "illumination",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -1443,7 +1443,7 @@
             "name": "Atonement",
             "uri": "atonement",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -1473,7 +1473,7 @@
             "name": "Block Printing",
             "uri": "blockprinting",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -1503,7 +1503,7 @@
             "name": "Herbal Medicine",
             "uri": "herbalmedicine",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -1533,7 +1533,7 @@
             "name": "Theocracy",
             "uri": "theocracy",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -1563,7 +1563,7 @@
             "name": "Heresy",
             "uri": "heresy",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -1593,7 +1593,7 @@
             "name": "Sanctity",
             "uri": "sanctity",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -1623,7 +1623,7 @@
             "name": "Fervor",
             "uri": "fervor",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -1653,7 +1653,7 @@
             "name": "Town Watch",
             "uri": "townwatch",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -1683,7 +1683,7 @@
             "name": "Town Patrol",
             "uri": "townpatrol",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -1713,7 +1713,7 @@
             "name": "Feudal Age",
             "uri": "feudalage",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -1743,7 +1743,7 @@
             "name": "Castle Age",
             "uri": "castleage",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -1773,7 +1773,7 @@
             "name": "Imperial Age",
             "uri": "imperialage",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -1803,7 +1803,7 @@
             "name": "Loom",
             "uri": "loom",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -1833,7 +1833,7 @@
             "name": "Wheelbarrow",
             "uri": "wheelbarrow",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -1863,7 +1863,7 @@
             "name": "Hand Cart",
             "uri": "handcart",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -1893,7 +1893,7 @@
             "name": "Gold Mining",
             "uri": "goldmining",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -1923,7 +1923,7 @@
             "name": "Gold Shaft Mining",
             "uri": "goldshaftmining",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -1953,7 +1953,7 @@
             "name": "Stone Mining",
             "uri": "stonemining",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -1983,7 +1983,7 @@
             "name": "Stone Shaft Mining",
             "uri": "stoneshaftmining",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -2013,7 +2013,7 @@
             "name": "Double-Bit Axe",
             "uri": "doublebitaxe",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -2043,7 +2043,7 @@
             "name": "Bow Saw",
             "uri": "bowsaw",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -2073,7 +2073,7 @@
             "name": "Two-Man Saw",
             "uri": "twomansaw",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -2103,7 +2103,7 @@
             "name": "Horse Collar",
             "uri": "horsecollar",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -2133,7 +2133,7 @@
             "name": "Heavy Plow",
             "uri": "heavyplow",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -2163,7 +2163,7 @@
             "name": "Crop Rotation",
             "uri": "croprotation",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -2193,7 +2193,7 @@
             "name": "Caravan",
             "uri": "caravan",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -2223,7 +2223,7 @@
             "name": "Guilds",
             "uri": "guilds",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -2253,7 +2253,7 @@
             "name": "Coinage",
             "uri": "coinage",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {
@@ -2283,7 +2283,7 @@
             "name": "Banking",
             "uri": "banking",
             "age": "Placeholder Age",
-            "toggle": true,
+            "toggle": false,
             "unique": false,
             "effect": {
                   "cost": {

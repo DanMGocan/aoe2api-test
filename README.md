@@ -15,6 +15,9 @@ result in a log
 
 * add expansion key / value to the civilizations 
 * add URI values for all entries
+* fix icon url for all entries 
+* toggle all techs as false
+
 Sources of information: 
 
 

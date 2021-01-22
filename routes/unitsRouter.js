@@ -12,7 +12,6 @@ unitsRouter.get("/", (req, res, next) => {
 
 unitsRouter.get("/:name", (req, res, next) => {
     try {
-        console.log(req.params.name);
         const unit = allUnits.find(unit => unit.uri == req.params.name)
         if(!unit) {
             const err = new Error("Unit was not found!");

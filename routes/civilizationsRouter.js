@@ -24,5 +24,5 @@ civilizationsRouter.get("/:name", async (req, res, next) => {
 });
 
 module.exports = {
-    civilizationsRouter: civilizationsRouter
+    civilizationsRouter
 }
