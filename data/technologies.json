@@ -360,8 +360,8 @@
             "icon": "../resources/icons/units/conscription.png"
       },
       {
-            "name": "Spies/Treason",
-            "uri": "spies/treason",
+            "name": "Spies",
+            "uri": "spies",
             "age": "Placeholder Age",
             "toggle": false,
             "unique": false,
@@ -387,7 +387,37 @@
             "researchTime": {
                   "technologiesCastle": 0
             },
-            "icon": "../resources/icons/units/spies/treason.png"
+            "icon": "../resources/icons/units/spies.png"
+      },
+      {
+            "name": "Treason",
+            "uri": "treason",
+            "age": "Placeholder Age",
+            "toggle": false,
+            "unique": false,
+            "effect": {
+                  "cost": {
+                        "food": 0,
+                        "gold": 0,
+                        "wood": 0
+                  },
+                  "hitPoints": 0,
+                  "attack": 0,
+                  "range": 0,
+                  "attackDelay": 0,
+                  "rateOfFire": 0,
+                  "meleeArmour": 0,
+                  "pierceArmour": 0,
+                  "speed": 0,
+                  "lineOfSight": 0
+            },
+            "unitsAffected": [
+                  "Placeholder Placeholder Placeholder"
+            ],
+            "researchTime": {
+                  "technologiesCastle": 0
+            },
+            "icon": "../resources/icons/units/treason.png"
       },
       {
             "name": "Gillnets",

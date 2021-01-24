@@ -29,7 +29,7 @@ const all = {
         technologiesBarracks: ["Supplies", "Arson", "Squires"],
         technologiesStable: ["Bloodlines", "Husbandry"],
         technologiesArcheryRange: ["Thumb Ring", "Parthian Tactics"],
-        technologiesCastle: ["uniqueCastleAge", "uniqueImperialAge", "Hoardings", "Sappers", "Conscription", "Spies/Treason"],
+        technologiesCastle: ["uniqueCastleAge", "uniqueImperialAge", "Hoardings", "Sappers", "Conscription", "Spies", "Treason"],
         technologiesDock: ["Gillnets", "Careening", "Dry Dock", "Shipwright"],
         technologiesSiegeWorkshop: [],
         technologiesBlacksmith: ["Padded Archer Armour", "Leather Archer Armour", "Ring Archer Armour", "Fletching", "Bodkin Arrow", "Bracer", "Forging", "Iron Casting", "Blast Furnace",
