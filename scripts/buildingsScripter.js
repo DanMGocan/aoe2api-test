@@ -22,6 +22,6 @@ const buildingsDefaults = {
     "unique": false
 };
 
-let output = mainScripter(all.buildings, buildingsDefaults, "constructionTime");
+let output = mainScripter(all.buildings, buildingsDefaults, "constructionTime", "buildings");
 fs.writeFileSync(`../data/buildings.json`, JSON.stringify(output, null, 6), err => err ? console.error(err) : console.log(`Successfully wrote units`));
 

@@ -17,9 +17,13 @@ result in a log
 * add URI values for all entries
 * fix icon url for all entries 
 * toggle all techs as false
-
+* use the pinger script to color an HTML table, in accordance with what was / was not pinged
 Sources of information: 
+* Ping everything twice a day
+* Add pinger function for categories (units, etc.)
 
+To test the API you can check /log. A script runs twice a day and pings all 
+the URL, to make sure they respond. 
 
 ### Unit format
 

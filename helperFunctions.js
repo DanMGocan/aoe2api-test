@@ -18,7 +18,7 @@ const statisticsIncrementor = (req, res, next) => {
 }
 
 /** Main scripter for Units, Techs and Buildings */
-const mainScripter = (data, defaults, time) => {
+const mainScripter = (data, defaults, time, type) => {
     let output = [];
     for(const [catName, objNames] of Object.entries(data)){
         for(const name of objNames){
@@ -28,7 +28,7 @@ const mainScripter = (data, defaults, time) => {
                 uri: uri,
                 ...defaults,
                 [time]: {[catName]: 0},
-                icon: `../resources/icons/units/${name.toLowerCase().replace(/[ -]/g, '')}.png`,
+                icon: `../resources/icons/${type}/${name.toLowerCase().replace(/[ -]/g, '')}.png`,
             });
         }
     }

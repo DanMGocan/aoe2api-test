@@ -44,10 +44,15 @@ const technologiesRouter = technologiesRouterModule.technologiesRouter;
 const civilizationsRouterModule = require("./routes/civilizationsRouter");
 const civilizationsRouter = civilizationsRouterModule.civilizationsRouter;
 
+/* Importing the Buildings Router module */
+const buildingsRouterModule = require("./routes/buildingsRouter");
+const buildingsRouter = buildingsRouterModule.buildingsRouter;
+
 /* Routers */
 app.use("/units", unitsRouter);
 app.use("/technologies", technologiesRouter);
 app.use("/civilizations", civilizationsRouter);
+app.use("/buildings", buildingsRouter);
 
 /* Statistics incrementor, on each app use */
 
@@ -69,6 +74,10 @@ app.get("/", (req, res, next) => {
 app.get("/stats", (req, res, next) => {
     res.json(statistics);
 });
+
+app.get("/log", (req, res, next) => {
+    res.sendFile(path.join(__dirname + "/logs/log.html"));
+})
 
 /* Error handlers*/
 app.use((req, res, next) => {

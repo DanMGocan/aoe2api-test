@@ -25,6 +25,6 @@ const techDefaults = {
     "unitsAffected": ["Placeholder Placeholder Placeholder"]
 };
 
-let output = mainScripter(all.technologies, techDefaults, "researchTime");
+let output = mainScripter(all.technologies, techDefaults, "researchTime", "technologies");
 fs.writeFileSync(`../data/technologies.json`, JSON.stringify(output, null, 6), err => err ? console.error(err) : console.log(`Successfully wrote units`));
 

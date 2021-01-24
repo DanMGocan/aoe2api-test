@@ -33,6 +33,6 @@ const unitDefaults = {
     "unique": false
 };
 
-let output = mainScripter(all.units, unitDefaults, "trainingTime");
+let output = mainScripter(all.units, unitDefaults, "trainingTime", "units");
 fs.writeFileSync(`../data/units.json`, JSON.stringify(output, null, 6), err => err ? console.error(err) : console.log(`Successfully wrote units`));
 
