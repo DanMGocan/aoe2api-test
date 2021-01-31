@@ -20,6 +20,5 @@ const statsScript = (categories, inputArrays) => {
     return resultsObj;
 }
     
-
 let output = statsScript(categories, mappedArray);
 fs.writeFileSync(`../data/statistics/statistics.json`, JSON.stringify(output, null, 6), err => err ? console.error(err) : console.log(`Successfully wrote units`));
