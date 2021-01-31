@@ -14,7 +14,7 @@ civilizationsRouter.get("/:name", async (req, res, next) => {
             err.status = 404;
             throw err;
         }
-        res.json(data); //sending all data, as a JSON file instead of an element from the data file
+        res.send(data); //sending all data, as a JSON file instead of an element from the data file
     }
 
     catch(e) {
