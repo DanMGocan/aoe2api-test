@@ -190,7 +190,7 @@ const civDefaults = {
 
 for (element of civilizations) {
     let object = {
-        element,
+        name: element,
         uri: element.toLowerCase().replace(/[ -]/g, ''), 
         ...civDefaults
     }

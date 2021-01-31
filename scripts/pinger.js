@@ -25,9 +25,11 @@ arrayPromise.then(async function(result) {
         let response = await fetch(`https://aoe2api-test.herokuapp.com/${element}`);
         let json = await response.json(); 
         if (json.name) {
+            console.log(element);
             log[json.name] = time.toLocaleString();
         } else {
-            log[json.name] = `--- MISSING ---`;
+            console.log(element);
+            log[element] = `--- MISSING ---`;
         }
 
     }     return log;
