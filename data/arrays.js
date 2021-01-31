@@ -65,9 +65,7 @@ let categories = [...Object.keys(all)];
 let inputArrays = [Object.values(all.units).flat(), Object.values(all.technologies).flat(),
     Object.values(all.buildings).flat(), Object.values(all.civilizations).flat()
     ];
-
-
-
+    
     module.exports = {
         all,
         categories,

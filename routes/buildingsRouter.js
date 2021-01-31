@@ -12,7 +12,7 @@ buildingsRouter.get("/", (req, res, next) => {
 
 buildingsRouter.get("/:name", (req, res, next) => {
     try {
-        const building = allUnits.find(unit => unit.uri == req.params.name)
+        const building = allBuildings.find(unit => unit.uri == req.params.name)
         if(!building) {
             const err = new Error("Building was not found!");
             err.status = 404;

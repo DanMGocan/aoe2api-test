@@ -19,9 +19,9 @@ const statistics = require("./data/statistics/statistics.json")
 const { statisticsIncrementor } = require("./helperFunctions");
 
 /* Added as a helper for the statisticsIncrementor listener */
-//const homeRouter = express.Router();
-//app.use("/", homeRouter);
-//homeRouter.use("/:category/:name", statisticsIncrementor);
+const homeRouter = express.Router();
+app.use("/", homeRouter);
+homeRouter.use("/:category/:name", statisticsIncrementor);
 
 /* Serving the favicon, yes I know :) */
 const favicon = require("serve-favicon");
@@ -54,8 +54,6 @@ app.use("/technologies", technologiesRouter);
 app.use("/civilizations", civilizationsRouter);
 app.use("/buildings", buildingsRouter);
 
-/* Statistics incrementor, on each app use */
-
 /* Allowing cross origin */
 app.use((req, res, next) => {
     res.header("Access-Control-Allow-Origin", "*");
@@ -66,10 +64,14 @@ app.use((req, res, next) => {
 /* Formatting the JSON responses */
 app.set('json spaces', '\t');
 
-/* Initial index.html file, sent as Homepage */
+/********** Initial index.html file, sent as Homepage */
 app.get("/", (req, res, next) => {
-    res.sendFile(path.join(__dirname + "/index.html"));
+    res.sendFile(path.join(__dirname + "/public/index.html"));
 });
+/********** Initial index.html file, sent as Homepage */
+app.get("/civilizations", (req, res, next) => {
+    res.sendFile(path.join(__dirname + "/public/allcivilizations.html"));
+})
 
 app.get("/stats", (req, res, next) => {
     res.json(statistics);
