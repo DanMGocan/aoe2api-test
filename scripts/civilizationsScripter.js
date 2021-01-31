@@ -8,7 +8,7 @@ const civDefaults = {
         "focus": ["Infantry", "Monks"],
         "wikiPage": "https://ageofempires.fandom.com/wiki/Aztecs_(Age_of_Empires_II)",
         "forgottenEmpiresLink": "https://www.forgottenempires.net/age-of-empires-ii-definitive-edition/civilizations/aztecs",
-      
+        "expansion": "Age of Kings",
         "buildings": {
             "barracks": true,
             "archery range": true,
@@ -190,7 +190,8 @@ const civDefaults = {
 
 for (element of civilizations) {
     let object = {
-        element, 
+        element,
+        uri: element.toLowerCase().replace(/[ -]/g, ''), 
         ...civDefaults
     }
     fs.writeFile(`../data/civilizations/${element}.json`, JSON.stringify(object, null, 6), err => err ? console.error(err) : console.log(`Successfully wrote civilization`));

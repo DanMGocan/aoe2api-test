@@ -13,9 +13,11 @@ const arrayPromise = new Promise((resolve, reject) => {
                 pathsToCheck.push(`${categories[i]}/${element}`.toLowerCase().replace(/[ -]/g, ''))
         }
     }
+    fs.writeFileSync(`../logs/paths.js`, JSON.stringify(pathsToCheck, null, 10), err => err ? console.error("Unit cannot be reached!") : console.log(`${output.name} successfully pinged!`)) 
     resolve(pathsToCheck);
 }) 
-    
+
+/* Once array is built, ping every ling and append the result to a separate array, to be written in a log file*/
 arrayPromise.then(async function(result) {
     log = [];
     for (element of result) {
