@@ -23,6 +23,10 @@ civilizationsRouter.get("/:name", async (req, res, next) => {
 
 });
 
+civilizationsRouter.get("/", (req, res, next) => {
+    res.sendFile("/public/allcivilizations.html", { root: "/Proiecte/aoe2api-test" });
+});
+
 module.exports = {
     civilizationsRouter
 }

@@ -73,13 +73,13 @@ app.get("/civilizations", (req, res, next) => {
     res.sendFile(path.join(__dirname + "/public/allcivilizations.html"));
 })
 
+app.get("/log", (req, res, next) => {
+    res.sendFile(path.join(__dirname + "/public/log.html"));
+})
+
 app.get("/stats", (req, res, next) => {
     res.json(statistics);
 });
-
-app.get("/log", (req, res, next) => {
-    res.sendFile(path.join(__dirname + "/logs/log.html"));
-})
 
 /* Error handlers*/
 app.use((req, res, next) => {
