@@ -17,7 +17,7 @@ const arrayPromise = new Promise((resolve, reject) => {
     resolve(pathsToCheck);
 }) 
 
-/* Once array is built, ping every ling and append the result to a separate array, to be written in a log file*/
+/* Once array is built, ping every link and append the result to a separate array, to be written in a log file*/
 arrayPromise.then(async function(result) {
     let log = {};
     for (element of result) {
@@ -35,7 +35,7 @@ arrayPromise.then(async function(result) {
     }     return log;
 })
     .then(log => {
-        fs.writeFileSync(`../public/js/log.json`, JSON.stringify(log, null, 6), err => err ? console.error("Unit cannot be reached!") : console.log(`${output.name} successfully pinged!`)) 
+        fs.writeFileSync(`../data/log.json`, JSON.stringify(log, null, 6), err => err ? console.error("Unit cannot be reached!") : console.log(`${output.name} successfully pinged!`)) 
     })
 
 

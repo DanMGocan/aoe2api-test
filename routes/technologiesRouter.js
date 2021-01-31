@@ -26,8 +26,6 @@ technologiesRouter.get("/:name", (req, res, next) => {
     }
 })
 
-
-
 module.exports = {
     technologiesRouter
 }
