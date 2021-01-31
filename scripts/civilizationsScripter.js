@@ -1,6 +1,8 @@
 const fs = require("fs");
 const { all } = require("../data/arrays");
-const civilizations = Object.values(all.civilizations).flat().map(element => element.toLowerCase().replace(/[ -]/g, ''));
+const civilizations = Object.values(all.civilizations).flat();
+const civilizationsUri = Object.values(all.civilizations).flat().map(element => element.toLowerCase().replace(/[ -]/g, ''));
+
 
 const civDefaults = {
         "icon": "https://www.forgottenempires.net/wp-content/uploads/menu_techtree_aztecs.png",
@@ -188,11 +190,11 @@ const civDefaults = {
         }   
     }
 
-for (element of civilizations) {
+for (element in civilizations) {
     let object = {
-        name: element,
-        uri: element.toLowerCase().replace(/[ -]/g, ''), 
+        name: civilizations[element],
+        uri: civilizations[element].toLowerCase().replace(/[ -]/g, ''), 
         ...civDefaults
     }
-    fs.writeFile(`../data/civilizations/${element}.json`, JSON.stringify(object, null, 6), err => err ? console.error(err) : console.log(`Successfully wrote civilization`));
+    fs.writeFile(`../data/civilizations/${civilizations[element].toLowerCase().replace(/[ -]/g, '')}.json`, JSON.stringify(object, null, 6), err => err ? console.error(err) : console.log(`Successfully wrote civilization`));
 }
