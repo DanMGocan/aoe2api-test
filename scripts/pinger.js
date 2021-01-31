@@ -13,44 +13,34 @@ const arrayPromise = new Promise((resolve, reject) => {
                 pathsToCheck.push(`${categories[i]}/${element}`.toLowerCase().replace(/[ -]/g, ''))
         }
     }
-    fs.writeFileSync(`../logs/paths.js`, JSON.stringify(pathsToCheck, null, 10), err => err ? console.error("Unit cannot be reached!") : console.log(`${output.name} successfully pinged!`)) 
     resolve(pathsToCheck);
 }) 
     
-
-/* Ping all URL */
 arrayPromise.then(async function(result) {
-
+    log = [];
     for (element of result) {
         let time = new Date();
         let toWrite = {};
         let response = await fetch(`https://aoe2api-test.herokuapp.com/${element}`);
         let json = await response.json(); 
         if (json.name) {
-            /*
-            toWrite = {
-                unitName: json.name,
-                pingedAt: element,
-                time: time.toLocaleString()
-            }*/
-            toWrite = `<h6>${json.name}<h6><p> has been succesfully pinged at URL ${element}, at ${time.toLocaleString()} ${time.getMilliseconds()}<p><br>`;
-            fs.appendFileSync(`../logs/log.html`, toWrite, err => err ? console.error("Unit cannot be reached!") : console.log(`${output.name} successfully pinged!`)) 
-
+            toWrite = `<h6>${json.name}<h4><p> has been succesfully pinged at URL ${element}, at ${time.toLocaleString()} ${time.getMilliseconds()}<p><br>`;
+            log.push(toWrite);
         } else {
 
             toWrite = {
                 missingUnit: element,
                 message: "[[[ UNIT WAS NOT FOUND AT URL ]]]"
             };
+            log.push(toWrite);
             
         }
-        //output.push(`<p>${toWrite}</p><br>`);
-    }
-    //fs.writeFileSync(`../log.html`, JSON.stringify(output, null, 6), err => err ? console.error("Unit cannot be reached!") : console.log(`${output.name} successfully pinged!`)) 
-})
 
-module.exports = {
-    output
-}
+    }     return log;
+})
+    .then(log => {
+        fs.writeFileSync(`../logs/log.html`, log, err => err ? console.error("Unit cannot be reached!") : console.log(`${output.name} successfully pinged!`)) 
+    })
+
 
 
