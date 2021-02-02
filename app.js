@@ -69,7 +69,7 @@ app.get("/", (req, res, next) => {
     res.sendFile(path.join(__dirname + "/public/index.html"));
 });
 /********** Initial index.html file, sent as Homepage */
-app.get("/civilizations", (req, res, next) => {
+civilizationsRouter.get("/", (req, res, next) => {
     res.sendFile(path.join(__dirname + "/public/allcivilizations.html"));
 })
 

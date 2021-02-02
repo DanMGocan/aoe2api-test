@@ -6,16 +6,17 @@ let statisticsContent = Object.keys(stats.civilizations).concat(Object.keys(stat
 const statisticsIncrementor = (req, res, next) => {
     let category = req.params.category.toLowerCase();
     let name = req.params.name.toLowerCase();
-    if(statisticsContent.includes(name)) {
-        stats[category.toLowerCase()][name.toLowerCase()]++;
-        jsonStats = JSON.stringify(stats, null, 10);
-        fs.writeFile("./data/statistics/statistics.json", jsonStats, "utf8", (err) => { if(err){console.log(err)}});
-        next();
-    } else {
-        let err = new Error("Invalid request");
-        next(err);
-    }  
-}
+        if(statisticsContent.includes(name)) {
+            stats[category.toLowerCase()][name.toLowerCase()]++;
+            jsonStats = JSON.stringify(stats, null, 10);
+            fs.writeFile("./data/statistics/statistics.json", jsonStats, "utf8", (err) => { if(err){console.log(err)}});
+            next();
+        } //else {
+          //  let err = new Error("Invalid request");
+           // next(err);
+        //}  
+    }
+
 
 /** Main scripter for Units, Techs and Buildings */
 const mainScripter = (data, defaults, time, type) => {
